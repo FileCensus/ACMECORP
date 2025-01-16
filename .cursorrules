@@ -1,0 +1,36 @@
+# AI Operation Rules
+ai_rules:
+  - rule: "NO_LARGE_DELETIONS"
+    condition: "changes.deletions > 10% of codebase"
+    action: "REQUIRE_APPROVAL"
+    
+  - rule: "BACKUP_BEFORE_CHANGES"
+    condition: "before any modification"
+    action: "CREATE_BACKUP"
+    
+  - rule: "WRAPPED_COMMANDS"
+    condition: "executing shell commands"
+    action: "USE_PS1_WRAPPER"
+    
+  - rule: "PREVENT_RECURSIVE_CHANGES"
+    condition: "detecting cascading modifications"
+    action: "PAUSE_AND_NOTIFY"
+
+# Safety Thresholds
+thresholds:
+  max_file_deletions: 5
+  max_code_removal_percent: 10
+  max_concurrent_changes: 3
+  required_approval_threshold: 5
+
+# Logging Requirements
+logging:
+  level: DEBUG
+  retention_days: 30
+  required_fields:
+    - timestamp
+    - operation
+    - files_affected
+    - change_size
+    - agent_id
+    - approval_status

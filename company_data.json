@@ -1,0 +1,3854 @@
+{
+    "projects": {
+      "8525f5e1-b5bf-4af6-9b6f-7326135af265": {
+        "id": "8525f5e1-b5bf-4af6-9b6f-7326135af265",
+        "name": "Mobile App Modernization",
+        "type": "Software Development",
+        "department": "Business",
+        "number": "P5163",
+        "assigned_users": [
+          "80e8b057-7427-4630-a1c4-f2fa67e0d704",
+          "6bec9f5b-c92c-4a95-ba94-bb1e7c187c3d",
+          "3ec76a2c-436e-4cda-8414-929a053f1429",
+          "b5fd5aa7-93be-4ef8-8eff-8ebf1e5ce22a",
+          "95266fec-fcfc-490f-8763-143787e4b300",
+          "0dcca2d2-eb5d-4c0c-ad67-24746928b0fd",
+          "d41803f2-a247-4528-a7b8-5730ba65c72c",
+          "4e4aee5b-ebae-4b32-ba1c-3633ecea4db6",
+          "6b0f28f3-161f-4e1f-b271-9a1ccd07b092",
+          "4efc7614-5ffb-4a8c-9828-a6cc72b8f131"
+        ],
+        "likely_technologies": [
+          "Go",
+          "Java",
+          "Python",
+          "Looker",
+          "Google Cloud",
+          "Flask",
+          "Lambda",
+          "RDS",
+          "Spring Boot",
+          "AWS",
+          "JavaScript",
+          "Kubernetes",
+          "R",
+          "Terraform",
+          "S3"
+        ],
+        "start_date": "2024-03-01",
+        "end_date": "2024-07-19",
+        "status": "Completed",
+        "budget": 835809,
+        "priority": "Medium",
+        "complexity": "Low",
+        "quota_gb": 3797
+      },
+      "6ee636af-4c0c-4ebc-8267-29cfbb60b360": {
+        "id": "6ee636af-4c0c-4ebc-8267-29cfbb60b360",
+        "name": "Authentication Implementation",
+        "type": "Security",
+        "department": "Engineering",
+        "number": "P7649",
+        "assigned_users": [
+          "df2325c7-2aae-46a2-8d77-958cdd170ad1",
+          "06d1efbd-3478-4389-933e-733d71e2f161",
+          "86c83f74-4e8d-4b46-9649-3730475ff65c",
+          "0dcca2d2-eb5d-4c0c-ad67-24746928b0fd",
+          "624f9637-d21c-4a3b-9bfb-7481cc900e97",
+          "b8f36466-a106-4703-9ac1-43bdec7b9fa4",
+          "f058bee3-e0c0-416b-80e2-6a24922d1cf6",
+          "878b52cc-721d-435d-9dbd-0f680d25b2c2"
+        ],
+        "likely_technologies": [
+          "Burp Suite",
+          "SIEM",
+          "Wireshark",
+          "Penetration Testing"
+        ],
+        "start_date": "2023-05-23",
+        "end_date": "2023-10-06",
+        "status": "Completed",
+        "budget": 344301,
+        "priority": "High",
+        "complexity": "High",
+        "quota_gb": 108
+      },
+      "a8cd0e69-c233-413e-b14b-dfeb1fb7306d": {
+        "id": "a8cd0e69-c233-413e-b14b-dfeb1fb7306d",
+        "name": "Authentication Upgrade - Phase 1",
+        "type": "Security",
+        "department": "Operations",
+        "number": "P1521",
+        "assigned_users": [
+          "c86a7fa0-346a-4749-aef9-6d3d87835e6c",
+          "86c83f74-4e8d-4b46-9649-3730475ff65c",
+          "ccaf67f4-3057-4c5a-b12c-a06e378a0234",
+          "f54987cd-f408-4843-8164-973d412428f2",
+          "6b0f28f3-161f-4e1f-b271-9a1ccd07b092"
+        ],
+        "likely_technologies": [
+          "Python",
+          "Vue.js",
+          "IDS/IPS",
+          "SIEM",
+          "Nessus",
+          "Wireshark",
+          "C#",
+          "Node.js"
+        ],
+        "start_date": "2024-08-30",
+        "end_date": null,
+        "status": "On Hold",
+        "budget": 230513,
+        "priority": "High",
+        "complexity": "Low",
+        "quota_gb": 156
+      },
+      "62ce63c3-0a1b-4d7d-8a12-1d279bc7e821": {
+        "id": "62ce63c3-0a1b-4d7d-8a12-1d279bc7e821",
+        "name": "Payroll Integration",
+        "type": "Finance",
+        "department": "Operations",
+        "number": "P6692",
+        "assigned_users": [
+          "96fa345f-d4c9-4410-b00e-eaa293fcaeb2",
+          "ccaf67f4-3057-4c5a-b12c-a06e378a0234",
+          "878b52cc-721d-435d-9dbd-0f680d25b2c2",
+          "f54987cd-f408-4843-8164-973d412428f2"
+        ],
+        "likely_technologies": [
+          "SAP Finance",
+          "Workday Financial",
+          "Excel Advanced",
+          "SQL",
+          "Excel",
+          "NetSuite",
+          "ADP Payroll",
+          "Tableau",
+          "Confluence",
+          "Oracle",
+          "Jira",
+          "AWS",
+          "Google Cloud",
+          "Terraform"
+        ],
+        "start_date": "2023-06-27",
+        "end_date": "2024-01-22",
+        "status": "Completed",
+        "budget": 87398,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 225
+      },
+      "5c615417-9b9e-4168-9c38-99d7ca80c889": {
+        "id": "5c615417-9b9e-4168-9c38-99d7ca80c889",
+        "name": "ERP Integration",
+        "type": "Business",
+        "department": "Operations",
+        "number": "P6636",
+        "assigned_users": [
+          "31a54dd2-09e2-451a-b709-032f7637e029"
+        ],
+        "likely_technologies": [
+          "SharePoint",
+          "Microsoft Office",
+          "SAP"
+        ],
+        "start_date": "2024-06-06",
+        "end_date": null,
+        "status": "On Hold",
+        "budget": 143270,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 167
+      },
+      "cea7d671-389e-42d2-8a1c-2927da9f2c0c": {
+        "id": "cea7d671-389e-42d2-8a1c-2927da9f2c0c",
+        "name": "Simulation Engine Optimization",
+        "type": "Engineering",
+        "department": "IT",
+        "number": "P8933",
+        "assigned_users": [
+          "bf1f9e14-5cb8-4339-b54d-b9f79fd17115"
+        ],
+        "likely_technologies": [
+          "Catia",
+          "PTC Creo",
+          "Java",
+          "S3",
+          "Docker",
+          "Vue.js",
+          "EC2",
+          "Flask",
+          "RDS",
+          "MATLAB",
+          "Spring Boot",
+          "Revit",
+          "C#",
+          "Node.js",
+          "Ansys"
+        ],
+        "start_date": "2023-04-22",
+        "end_date": "2023-08-02",
+        "status": "Completed",
+        "budget": 1443666,
+        "priority": "High",
+        "complexity": "Medium",
+        "quota_gb": 4746
+      },
+      "51f75489-5ad5-410f-9d14-3f83b30612a5": {
+        "id": "51f75489-5ad5-410f-9d14-3f83b30612a5",
+        "name": "Firewall Upgrade - Phase 3",
+        "type": "Security",
+        "department": "Operations",
+        "number": "P9496",
+        "assigned_users": [
+          "638d5930-6dac-4ce7-b702-4a99656d3759"
+        ],
+        "likely_technologies": [
+          "Burp Suite",
+          "Django",
+          "Go",
+          "Angular",
+          "Penetration Testing",
+          "Vue.js",
+          "IDS/IPS",
+          "SIEM"
+        ],
+        "start_date": "2024-08-18",
+        "end_date": null,
+        "status": "Active",
+        "budget": 107199,
+        "priority": "Medium",
+        "complexity": "Medium",
+        "quota_gb": 197
+      },
+      "58467216-3bd0-4dbc-8dbf-6bf76e4e81f5": {
+        "id": "58467216-3bd0-4dbc-8dbf-6bf76e4e81f5",
+        "name": "CAD System Optimization",
+        "type": "Engineering",
+        "department": "Operations",
+        "number": "P8681",
+        "assigned_users": [
+          "a4f22151-68cf-4276-84e8-e5dd65bb783a"
+        ],
+        "likely_technologies": [
+          "Inventor",
+          "AutoCAD",
+          "Go",
+          "Civil 3D",
+          "Python",
+          "SolidWorks",
+          "Spring Boot",
+          "React",
+          "JavaScript",
+          "Kubernetes",
+          "C#",
+          "Ansys"
+        ],
+        "start_date": "2024-01-10",
+        "end_date": "2024-04-17",
+        "status": "Completed",
+        "budget": 1028390,
+        "priority": "Medium",
+        "complexity": "Low",
+        "quota_gb": 5053
+      },
+      "be170937-bdcd-4e4f-bfbd-7bfb642d95da": {
+        "id": "be170937-bdcd-4e4f-bfbd-7bfb642d95da",
+        "name": "AI Model Optimization",
+        "type": "AI/ML",
+        "department": "Engineering",
+        "number": "P3221",
+        "assigned_users": [
+          "1ecd65e7-5ce4-41c3-92e8-409fab28cb29"
+        ],
+        "likely_technologies": [
+          "Angular",
+          "Vue.js",
+          "Flask",
+          "Terraform",
+          "Spark",
+          "Git",
+          "Scikit-learn",
+          "Hadoop",
+          "React",
+          "Kubernetes",
+          "Pandas",
+          "EC2",
+          "C#",
+          "Node.js",
+          "PyTorch"
+        ],
+        "start_date": "2024-04-20",
+        "end_date": "2024-11-02",
+        "status": "Completed",
+        "budget": 3151977,
+        "priority": "High",
+        "complexity": "Medium",
+        "quota_gb": 11241
+      },
+      "93ea6809-0e36-4186-92ed-a9071ff92489": {
+        "id": "93ea6809-0e36-4186-92ed-a9071ff92489",
+        "name": "CAD System Development - Phase 3",
+        "type": "Engineering",
+        "department": "Business",
+        "number": "P5796",
+        "assigned_users": [
+          "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b"
+        ],
+        "likely_technologies": [
+          "Catia",
+          "Go",
+          "PTC Creo",
+          "Civil 3D",
+          "Docker",
+          "Python",
+          "EC2",
+          "Flask",
+          "CloudFormation",
+          "Kubernetes",
+          "LabVIEW",
+          "JavaScript",
+          "Revit",
+          "C#",
+          "Node.js"
+        ],
+        "start_date": "2023-12-28",
+        "end_date": "2024-10-10",
+        "status": "Completed",
+        "budget": 2614280,
+        "priority": "Medium",
+        "complexity": "Medium",
+        "quota_gb": 4143
+      },
+      "2b9e67b6-decf-4402-bc47-8323931ec6ba": {
+        "id": "2b9e67b6-decf-4402-bc47-8323931ec6ba",
+        "name": "Web Portal Refactoring - Beta",
+        "type": "Software Development",
+        "department": "Business",
+        "number": "P1039",
+        "assigned_users": [
+          "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4"
+        ],
+        "likely_technologies": [
+          "Java",
+          "SQL",
+          "Python",
+          "Vue.js",
+          "Google Cloud",
+          "CloudFormation",
+          "Git",
+          "Terraform",
+          "AWS",
+          "React",
+          "DynamoDB",
+          "JavaScript",
+          "Kubernetes",
+          "RDS"
+        ],
+        "start_date": "2023-08-09",
+        "end_date": "2024-03-20",
+        "status": "Completed",
+        "budget": 681009,
+        "priority": "Medium",
+        "complexity": "Medium",
+        "quota_gb": 4041
+      },
+      "4df2fac4-5e8c-4217-9486-28bac138a82e": {
+        "id": "4df2fac4-5e8c-4217-9486-28bac138a82e",
+        "name": "Budget Planning Upgrade",
+        "type": "Finance",
+        "department": "Business",
+        "number": "P6836",
+        "assigned_users": [
+          "73fb6208-48ed-4584-9846-3dd89d417ecd"
+        ],
+        "likely_technologies": [
+          "Bloomberg Terminal",
+          "Excel Advanced",
+          "SQL",
+          "Docker",
+          "QuickBooks",
+          "Tableau",
+          "Confluence",
+          "Terraform",
+          "Sage",
+          "Microsoft Office",
+          "DynamoDB",
+          "SAP",
+          "Power BI"
+        ],
+        "start_date": "2023-06-16",
+        "end_date": "2024-04-21",
+        "status": "Completed",
+        "budget": 117988,
+        "priority": "Medium",
+        "complexity": "High",
+        "quota_gb": 144
+      },
+      "21e0862a-8377-462a-830f-c4fa41424228": {
+        "id": "21e0862a-8377-462a-830f-c4fa41424228",
+        "name": "Security System Assessment",
+        "type": "Security",
+        "department": "IT",
+        "number": "P4111",
+        "assigned_users": [
+          "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b"
+        ],
+        "likely_technologies": [
+          "Nessus",
+          "Wireshark",
+          "IDS/IPS",
+          "Metasploit"
+        ],
+        "start_date": "2023-10-06",
+        "end_date": "2024-07-12",
+        "status": "Completed",
+        "budget": 301355,
+        "priority": "Medium",
+        "complexity": "Low",
+        "quota_gb": 260
+      },
+      "296385b6-9c8d-4c10-9de5-13f69de4b830": {
+        "id": "296385b6-9c8d-4c10-9de5-13f69de4b830",
+        "name": "Research Platform Implementation",
+        "type": "Research",
+        "department": "Operations",
+        "number": "P7151",
+        "assigned_users": [
+          "2969b476-aa90-48a4-83b2-80afa472b534"
+        ],
+        "likely_technologies": [
+          "Pandas",
+          "NumPy",
+          "Hadoop",
+          "Spark",
+          "TensorFlow"
+        ],
+        "start_date": "2023-04-12",
+        "end_date": "2023-09-05",
+        "status": "Completed",
+        "budget": 1604387,
+        "priority": "Low",
+        "complexity": "Medium",
+        "quota_gb": 8696
+      },
+      "77d77f5e-48ec-4d3e-944f-2452c63e88d9": {
+        "id": "77d77f5e-48ec-4d3e-944f-2452c63e88d9",
+        "name": "Server Implementation",
+        "type": "Infrastructure",
+        "department": "IT",
+        "number": "P6089",
+        "assigned_users": [
+          "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4"
+        ],
+        "likely_technologies": [
+          "Azure",
+          "Docker",
+          "CloudFormation",
+          "AWS",
+          "DynamoDB",
+          "Kubernetes"
+        ],
+        "start_date": "2023-04-06",
+        "end_date": "2023-08-10",
+        "status": "Completed",
+        "budget": 252452,
+        "priority": "Medium",
+        "complexity": "High",
+        "quota_gb": 263
+      },
+      "2d6d90bc-d45a-44ef-ac2c-691d333bf8b3": {
+        "id": "2d6d90bc-d45a-44ef-ac2c-691d333bf8b3",
+        "name": "Neural Network Training",
+        "type": "AI/ML",
+        "department": "IT",
+        "number": "P3372",
+        "assigned_users": [
+          "af0bbce3-4ddb-4bc2-baf3-8bc7000c932f"
+        ],
+        "likely_technologies": [
+          "Django",
+          "Java",
+          "Angular",
+          "Docker",
+          "Python",
+          "Vue.js",
+          "Lambda",
+          "Git",
+          "NumPy",
+          "Scikit-learn",
+          "Spring Boot",
+          "Hadoop",
+          "Kubernetes",
+          "RDS",
+          "PyTorch"
+        ],
+        "start_date": "2024-10-07",
+        "end_date": null,
+        "status": "On Hold",
+        "budget": 7355026,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 31041
+      },
+      "40572786-dde2-4e01-8ab4-5fecea64af7e": {
+        "id": "40572786-dde2-4e01-8ab4-5fecea64af7e",
+        "name": "Authentication Assessment - v2",
+        "type": "Security",
+        "department": "IT",
+        "number": "P4651",
+        "assigned_users": [
+          "af0bbce3-4ddb-4bc2-baf3-8bc7000c932f"
+        ],
+        "likely_technologies": [
+          "Burp Suite",
+          "Go",
+          "Flask",
+          "IDS/IPS",
+          "SIEM",
+          "JavaScript",
+          "C#",
+          "Metasploit"
+        ],
+        "start_date": "2024-10-31",
+        "end_date": null,
+        "status": "Active",
+        "budget": 120531,
+        "priority": "High",
+        "complexity": "Low",
+        "quota_gb": 131
+      },
+      "a9b477db-064d-4b33-b64b-098f438cd998": {
+        "id": "a9b477db-064d-4b33-b64b-098f438cd998",
+        "name": "Data Center Migration",
+        "type": "Infrastructure",
+        "department": "Engineering",
+        "number": "P2887",
+        "assigned_users": [
+          "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b"
+        ],
+        "likely_technologies": [
+          "Azure",
+          "Docker",
+          "Vue.js",
+          "Terraform",
+          "Kubernetes",
+          "DynamoDB",
+          "Google Cloud",
+          "C#",
+          "RDS"
+        ],
+        "start_date": "2023-10-07",
+        "end_date": "2024-05-06",
+        "status": "Completed",
+        "budget": 224245,
+        "priority": "Medium",
+        "complexity": "High",
+        "quota_gb": 230
+      },
+      "91228c66-e869-4c2d-a7c4-b22c5de9140e": {
+        "id": "91228c66-e869-4c2d-a7c4-b22c5de9140e",
+        "name": "3D Modeling Optimization - Phase 3",
+        "type": "Engineering",
+        "department": "Engineering",
+        "number": "P2999",
+        "assigned_users": [
+          "10ad79dc-2add-4ab1-84cc-32bd1d8681d3"
+        ],
+        "likely_technologies": [
+          "Catia",
+          "PTC Creo",
+          "Java",
+          "Angular",
+          "SolidWorks",
+          "MATLAB",
+          "Spring Boot",
+          "React",
+          "Kubernetes",
+          "C#",
+          "Node.js",
+          "Ansys"
+        ],
+        "start_date": "2023-03-11",
+        "end_date": "2024-02-02",
+        "status": "Completed",
+        "budget": 1350609,
+        "priority": "High",
+        "complexity": "Medium",
+        "quota_gb": 3345
+      },
+      "1bb1fa0d-abab-433c-9c48-ebe7a96ccfcc": {
+        "id": "1bb1fa0d-abab-433c-9c48-ebe7a96ccfcc",
+        "name": "Analytics Dashboard Implementation",
+        "type": "Business",
+        "department": "Business",
+        "number": "P4881",
+        "assigned_users": [
+          "2969b476-aa90-48a4-83b2-80afa472b534"
+        ],
+        "likely_technologies": [
+          "Oracle",
+          "Confluence",
+          "SAP"
+        ],
+        "start_date": "2023-09-13",
+        "end_date": "2024-07-21",
+        "status": "Completed",
+        "budget": 110956,
+        "priority": "Low",
+        "complexity": "High",
+        "quota_gb": 168
+      },
+      "0efc82ff-3fd4-411c-ab27-019bc03ebc1f": {
+        "id": "0efc82ff-3fd4-411c-ab27-019bc03ebc1f",
+        "name": "Authentication Upgrade",
+        "type": "Security",
+        "department": "Business",
+        "number": "P9622",
+        "assigned_users": [
+          "10ad79dc-2add-4ab1-84cc-32bd1d8681d3"
+        ],
+        "likely_technologies": [
+          "Burp Suite",
+          "Firewall Configuration",
+          "SIEM",
+          "Metasploit"
+        ],
+        "start_date": "2023-01-22",
+        "end_date": "2023-08-03",
+        "status": "Completed",
+        "budget": 131426,
+        "priority": "High",
+        "complexity": "High",
+        "quota_gb": 222
+      },
+      "d27d32b3-ec07-4831-a731-169fe13ecaa6": {
+        "id": "d27d32b3-ec07-4831-a731-169fe13ecaa6",
+        "name": "Web Portal Refactoring",
+        "type": "Software Development",
+        "department": "Business",
+        "number": "P1214",
+        "assigned_users": [
+          "80e8b057-7427-4630-a1c4-f2fa67e0d704"
+        ],
+        "likely_technologies": [
+          "Azure",
+          "Go",
+          "Java",
+          "Angular",
+          "Docker",
+          "Lambda",
+          "CloudFormation",
+          "Git",
+          "Spring Boot",
+          "AWS",
+          "JavaScript",
+          "EC2",
+          "RDS"
+        ],
+        "start_date": "2023-09-25",
+        "end_date": "2024-02-11",
+        "status": "Completed",
+        "budget": 559112,
+        "priority": "Medium",
+        "complexity": "High",
+        "quota_gb": 2305
+      },
+      "992f5c70-f468-49f5-bf70-538cf031f43f": {
+        "id": "992f5c70-f468-49f5-bf70-538cf031f43f",
+        "name": "Research Platform Development - 2.0",
+        "type": "Research",
+        "department": "IT",
+        "number": "P2373",
+        "assigned_users": [],
+        "likely_technologies": [
+          "SQL",
+          "Python",
+          "Scikit-learn",
+          "Hadoop",
+          "R"
+        ],
+        "start_date": "2024-01-27",
+        "end_date": "2024-08-14",
+        "status": "Completed",
+        "budget": 2284581,
+        "priority": "High",
+        "complexity": "High",
+        "quota_gb": 11798
+      },
+      "5e40d759-fc20-4d22-8a11-292570642038": {
+        "id": "5e40d759-fc20-4d22-8a11-292570642038",
+        "name": "CAD System Implementation",
+        "type": "Engineering",
+        "department": "Engineering",
+        "number": "P5161",
+        "assigned_users": [],
+        "likely_technologies": [
+          "AutoCAD",
+          "Inventor",
+          "Go",
+          "Java",
+          "PTC Creo",
+          "Angular",
+          "Flask",
+          "Git",
+          "Revit",
+          "C#",
+          "Node.js",
+          "Ansys"
+        ],
+        "start_date": "2024-06-14",
+        "end_date": null,
+        "status": "On Hold",
+        "budget": 1190261,
+        "priority": "Low",
+        "complexity": "Medium",
+        "quota_gb": 4410
+      },
+      "26744040-6be4-452d-9f2d-9dcb7d9144c7": {
+        "id": "26744040-6be4-452d-9f2d-9dcb7d9144c7",
+        "name": "Firewall Assessment",
+        "type": "Security",
+        "department": "Operations",
+        "number": "P1267",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Burp Suite",
+          "Firewall Configuration",
+          "Go",
+          "Angular",
+          "IDS/IPS",
+          "Wireshark",
+          "Kubernetes",
+          "Node.js"
+        ],
+        "start_date": "2024-09-29",
+        "end_date": null,
+        "status": "On Hold",
+        "budget": 146753,
+        "priority": "Medium",
+        "complexity": "Low",
+        "quota_gb": 227
+      },
+      "eb12b69b-0aec-46e5-af06-4f75313a6206": {
+        "id": "eb12b69b-0aec-46e5-af06-4f75313a6206",
+        "name": "API Service Refactoring",
+        "type": "Software Development",
+        "department": "IT",
+        "number": "P8100",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Django",
+          "Docker",
+          "EC2",
+          "Google Cloud",
+          "Flask",
+          "Git",
+          "Spring Boot",
+          "AWS",
+          "React",
+          "DynamoDB",
+          "Kubernetes",
+          "Terraform",
+          "S3"
+        ],
+        "start_date": "2024-01-01",
+        "end_date": "2024-08-15",
+        "status": "Completed",
+        "budget": 338219,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 2067
+      },
+      "7e7b9bdc-99a8-4c46-86ca-d2913179cd81": {
+        "id": "7e7b9bdc-99a8-4c46-86ca-d2913179cd81",
+        "name": "Mobile App Refactoring",
+        "type": "Software Development",
+        "department": "IT",
+        "number": "P3664",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Azure",
+          "Angular",
+          "Python",
+          "EC2",
+          "Google Cloud",
+          "CloudFormation",
+          "Git",
+          "Terraform",
+          "Spring Boot",
+          "JavaScript",
+          "Kubernetes",
+          "Node.js"
+        ],
+        "start_date": "2024-01-02",
+        "end_date": "2024-10-26",
+        "status": "Completed",
+        "budget": 729161,
+        "priority": "Medium",
+        "complexity": "Medium",
+        "quota_gb": 2335
+      },
+      "7d8cfa85-2be7-4d05-a9b8-dfbc8ad5b6af": {
+        "id": "7d8cfa85-2be7-4d05-a9b8-dfbc8ad5b6af",
+        "name": "3D Modeling Implementation",
+        "type": "Engineering",
+        "department": "IT",
+        "number": "P4776",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Go",
+          "Civil 3D",
+          "EC2",
+          "Flask",
+          "Lambda",
+          "Git",
+          "MATLAB",
+          "Spring Boot",
+          "Kubernetes",
+          "React",
+          "LabVIEW",
+          "JavaScript",
+          "Revit",
+          "C#",
+          "Ansys"
+        ],
+        "start_date": "2023-10-21",
+        "end_date": "2024-06-26",
+        "status": "Completed",
+        "budget": 1904831,
+        "priority": "Low",
+        "complexity": "High",
+        "quota_gb": 4078
+      },
+      "554934b4-31c9-4bb5-ad08-c403836d9848": {
+        "id": "554934b4-31c9-4bb5-ad08-c403836d9848",
+        "name": "API Service Modernization",
+        "type": "Software Development",
+        "department": "IT",
+        "number": "P6720",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Azure",
+          "Java",
+          "Docker",
+          "Google Cloud",
+          "Git",
+          "React",
+          "DynamoDB",
+          "JavaScript",
+          "Kubernetes",
+          "C#",
+          "Terraform",
+          "S3"
+        ],
+        "start_date": "2023-01-19",
+        "end_date": "2024-01-10",
+        "status": "Completed",
+        "budget": 423184,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 2089
+      },
+      "e4cf3dcd-1192-47b8-b3e4-2557f59215dd": {
+        "id": "e4cf3dcd-1192-47b8-b3e4-2557f59215dd",
+        "name": "Data Center Implementation",
+        "type": "Infrastructure",
+        "department": "Engineering",
+        "number": "P5296",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Docker",
+          "EC2",
+          "Lambda",
+          "DynamoDB",
+          "Kubernetes",
+          "Terraform"
+        ],
+        "start_date": "2023-08-18",
+        "end_date": "2024-07-28",
+        "status": "Cancelled",
+        "budget": 433593,
+        "priority": "Low",
+        "complexity": "Medium",
+        "quota_gb": 235
+      },
+      "ed91b3eb-fddf-4ace-bb5d-87b281b03c2f": {
+        "id": "ed91b3eb-fddf-4ace-bb5d-87b281b03c2f",
+        "name": "Cloud Infrastructure Upgrade",
+        "type": "Infrastructure",
+        "department": "Engineering",
+        "number": "P8527",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Google Cloud",
+          "Lambda",
+          "AWS",
+          "DynamoDB",
+          "Kubernetes",
+          "RDS"
+        ],
+        "start_date": "2024-07-01",
+        "end_date": null,
+        "status": "Active",
+        "budget": 312674,
+        "priority": "Medium",
+        "complexity": "High",
+        "quota_gb": 425
+      },
+      "1b5de982-be97-4b8b-9896-abc85988e8df": {
+        "id": "1b5de982-be97-4b8b-9896-abc85988e8df",
+        "name": "Authentication Assessment",
+        "type": "Security",
+        "department": "Operations",
+        "number": "P9477",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Firewall Configuration",
+          "Docker",
+          "Flask",
+          "SIEM",
+          "Git",
+          "Nessus",
+          "Kubernetes",
+          "Metasploit"
+        ],
+        "start_date": "2024-07-23",
+        "end_date": null,
+        "status": "On Hold",
+        "budget": 229281,
+        "priority": "High",
+        "complexity": "Low",
+        "quota_gb": 205
+      },
+      "83b85c70-394f-4514-882a-a4757dd20643": {
+        "id": "83b85c70-394f-4514-882a-a4757dd20643",
+        "name": "Firewall Implementation",
+        "type": "Security",
+        "department": "Operations",
+        "number": "P4416",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Nessus",
+          "Burp Suite",
+          "SIEM",
+          "Metasploit"
+        ],
+        "start_date": "2023-12-09",
+        "end_date": "2024-10-04",
+        "status": "Completed",
+        "budget": 130810,
+        "priority": "Low",
+        "complexity": "Medium",
+        "quota_gb": 252
+      },
+      "c4f272b6-18b8-44b0-9e7f-9d465859c510": {
+        "id": "c4f272b6-18b8-44b0-9e7f-9d465859c510",
+        "name": "Analytics Dashboard Implementation - Beta",
+        "type": "Business",
+        "department": "Operations",
+        "number": "P7946",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Azure",
+          "Confluence",
+          "Microsoft Office",
+          "Kubernetes",
+          "SAP",
+          "S3"
+        ],
+        "start_date": "2023-06-08",
+        "end_date": "2024-06-04",
+        "status": "Completed",
+        "budget": 182140,
+        "priority": "Medium",
+        "complexity": "Low",
+        "quota_gb": 144
+      },
+      "8f9bc36e-98f4-4d0d-a12c-e7ed718a56a1": {
+        "id": "8f9bc36e-98f4-4d0d-a12c-e7ed718a56a1",
+        "name": "CRM Implementation",
+        "type": "Business",
+        "department": "Engineering",
+        "number": "P1570",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Salesforce",
+          "Tableau",
+          "Microsoft Office",
+          "SAP",
+          "Power BI"
+        ],
+        "start_date": "2024-05-11",
+        "end_date": "2024-12-20",
+        "status": "Completed",
+        "budget": 73347,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 122
+      },
+      "7a309fbc-754f-4539-8a6e-345383275cfd": {
+        "id": "7a309fbc-754f-4539-8a6e-345383275cfd",
+        "name": "Financial System Upgrade",
+        "type": "Finance",
+        "department": "IT",
+        "number": "P1661",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Azure",
+          "SAP Finance",
+          "Bloomberg Terminal",
+          "Excel Advanced",
+          "QuickBooks",
+          "NetSuite",
+          "CloudFormation",
+          "Jira",
+          "Oracle Financials",
+          "DynamoDB",
+          "Google Analytics",
+          "SharePoint",
+          "SAP",
+          "Power BI"
+        ],
+        "start_date": "2023-08-20",
+        "end_date": "2024-02-19",
+        "status": "Cancelled",
+        "budget": 105873,
+        "priority": "Medium",
+        "complexity": "Medium",
+        "quota_gb": 198
+      },
+      "d65ae68d-60ee-4df9-bb83-7ca8719b4418": {
+        "id": "d65ae68d-60ee-4df9-bb83-7ca8719b4418",
+        "name": "Budget Planning Upgrade - MVP",
+        "type": "Finance",
+        "department": "Operations",
+        "number": "P5422",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Workday Financial",
+          "Excel Advanced",
+          "Tableau",
+          "ADP Payroll",
+          "Sage",
+          "Jira",
+          "Microsoft Office",
+          "Google Analytics",
+          "SharePoint",
+          "R",
+          "Power BI"
+        ],
+        "start_date": "2024-03-14",
+        "end_date": "2024-10-03",
+        "status": "Completed",
+        "budget": 199543,
+        "priority": "High",
+        "complexity": "High",
+        "quota_gb": 226
+      },
+      "015870d5-41d7-448f-8ef4-95e69c12bd79": {
+        "id": "015870d5-41d7-448f-8ef4-95e69c12bd79",
+        "name": "Web Portal Modernization - Phase 1",
+        "type": "Software Development",
+        "department": "Engineering",
+        "number": "P8462",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Django",
+          "Google Analytics",
+          "Go",
+          "Python",
+          "Looker",
+          "EC2",
+          "CloudFormation",
+          "Git",
+          "Terraform",
+          "Spring Boot",
+          "Scikit-learn",
+          "PyTorch",
+          "React",
+          "Spark",
+          "Kubernetes",
+          "RDS",
+          "S3"
+        ],
+        "start_date": "2024-01-16",
+        "end_date": "2024-04-18",
+        "status": "Completed",
+        "budget": 627298,
+        "priority": "Low",
+        "complexity": "High",
+        "quota_gb": 3105
+      },
+      "2c68672e-6bc3-4607-8db0-b0c6568e4a06": {
+        "id": "2c68672e-6bc3-4607-8db0-b0c6568e4a06",
+        "name": "Budget Planning Automation",
+        "type": "Finance",
+        "department": "Operations",
+        "number": "P8966",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Salesforce",
+          "Excel Advanced",
+          "Docker",
+          "QuickBooks",
+          "NetSuite",
+          "ADP Payroll",
+          "Tableau",
+          "CloudFormation",
+          "Microsoft Office",
+          "Oracle Financials",
+          "Google Analytics",
+          "Google Cloud",
+          "SAP",
+          "Power BI"
+        ],
+        "start_date": "2023-11-13",
+        "end_date": "2024-08-10",
+        "status": "Cancelled",
+        "budget": 103362,
+        "priority": "Medium",
+        "complexity": "Low",
+        "quota_gb": 101
+      },
+      "02e12cf9-2983-4ce1-85e0-f3dd6219e9af": {
+        "id": "02e12cf9-2983-4ce1-85e0-f3dd6219e9af",
+        "name": "Analysis Framework Analysis - Phase 2",
+        "type": "Research",
+        "department": "IT",
+        "number": "P4391",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Angular",
+          "Google Cloud",
+          "EC2",
+          "NumPy",
+          "Scikit-learn",
+          "Spring Boot",
+          "DynamoDB",
+          "JavaScript",
+          "Kubernetes",
+          "R",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "start_date": "2024-04-20",
+        "end_date": "2024-07-31",
+        "status": "Completed",
+        "budget": 2930575,
+        "priority": "Medium",
+        "complexity": "High",
+        "quota_gb": 16153
+      },
+      "9d9a78cf-5cf6-401c-8b92-2a660223b40e": {
+        "id": "9d9a78cf-5cf6-401c-8b92-2a660223b40e",
+        "name": "Budget Planning Automation - Beta",
+        "type": "Finance",
+        "department": "Engineering",
+        "number": "P3220",
+        "assigned_users": [],
+        "likely_technologies": [
+          "SAP Finance",
+          "Workday Financial",
+          "Docker",
+          "NetSuite",
+          "Tableau",
+          "Confluence",
+          "RDS",
+          "Terraform",
+          "Sage",
+          "Oracle Financials",
+          "SharePoint",
+          "SAP"
+        ],
+        "start_date": "2023-02-20",
+        "end_date": "2023-06-16",
+        "status": "Completed",
+        "budget": 235310,
+        "priority": "High",
+        "complexity": "Medium",
+        "quota_gb": 151
+      },
+      "4ba1a487-20ee-4ffc-8581-2c60fa7265d0": {
+        "id": "4ba1a487-20ee-4ffc-8581-2c60fa7265d0",
+        "name": "Data Warehouse Optimization",
+        "type": "Data Science",
+        "department": "Business",
+        "number": "P6051",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Azure",
+          "Go",
+          "Pandas",
+          "Vue.js",
+          "Flask",
+          "CloudFormation",
+          "AWS",
+          "Hadoop",
+          "JavaScript",
+          "Spark",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "start_date": "2023-02-12",
+        "end_date": "2024-01-14",
+        "status": "Completed",
+        "budget": 2256209,
+        "priority": "Medium",
+        "complexity": "High",
+        "quota_gb": 12216
+      },
+      "56ba66d3-e87f-4d70-9b12-48501a88dd22": {
+        "id": "56ba66d3-e87f-4d70-9b12-48501a88dd22",
+        "name": "Analysis Framework Analysis - Phase 1",
+        "type": "Research",
+        "department": "Business",
+        "number": "P9518",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Azure",
+          "Java",
+          "SQL",
+          "Docker",
+          "Python",
+          "Flask",
+          "Lambda",
+          "Git",
+          "NumPy",
+          "AWS",
+          "Spark",
+          "R"
+        ],
+        "start_date": "2023-05-30",
+        "end_date": "2023-11-17",
+        "status": "Cancelled",
+        "budget": 3956877,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 7389
+      },
+      "a5d6d76b-7f1e-440d-8ccc-081caad53679": {
+        "id": "a5d6d76b-7f1e-440d-8ccc-081caad53679",
+        "name": "Financial System Implementation",
+        "type": "Finance",
+        "department": "IT",
+        "number": "P5049",
+        "assigned_users": [],
+        "likely_technologies": [
+          "SQL",
+          "Docker",
+          "NetSuite",
+          "ADP Payroll",
+          "Tableau",
+          "Oracle",
+          "Sage",
+          "Jira",
+          "Oracle Financials",
+          "EC2",
+          "SharePoint",
+          "RDS",
+          "Power BI"
+        ],
+        "start_date": "2023-02-28",
+        "end_date": "2024-01-07",
+        "status": "Completed",
+        "budget": 105142,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 256
+      },
+      "e7436c7e-56b6-46e0-b7d7-da6f8520b73a": {
+        "id": "e7436c7e-56b6-46e0-b7d7-da6f8520b73a",
+        "name": "Payroll Automation - v2",
+        "type": "Finance",
+        "department": "Engineering",
+        "number": "P1132",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Workday Financial",
+          "Excel Advanced",
+          "Bloomberg Terminal",
+          "Xero",
+          "Tableau",
+          "Confluence",
+          "Oracle Financials",
+          "Looker",
+          "SharePoint",
+          "SAP",
+          "Power BI"
+        ],
+        "start_date": "2023-05-19",
+        "end_date": "2023-09-12",
+        "status": "Completed",
+        "budget": 177922,
+        "priority": "Medium",
+        "complexity": "High",
+        "quota_gb": 151
+      },
+      "f423c8ec-007e-4a59-9433-c3191bb30a0f": {
+        "id": "f423c8ec-007e-4a59-9433-c3191bb30a0f",
+        "name": "Analysis Framework Implementation - v2",
+        "type": "Research",
+        "department": "Engineering",
+        "number": "P5351",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Jupyter",
+          "SQL",
+          "Docker",
+          "Python",
+          "Angular",
+          "Flask",
+          "Hadoop",
+          "Pandas",
+          "Kubernetes",
+          "RDS",
+          "S3"
+        ],
+        "start_date": "2023-07-23",
+        "end_date": "2024-06-09",
+        "status": "Completed",
+        "budget": 2176347,
+        "priority": "Low",
+        "complexity": "High",
+        "quota_gb": 6310
+      },
+      "7d08e847-980f-4213-b61b-aaceab8f62d6": {
+        "id": "7d08e847-980f-4213-b61b-aaceab8f62d6",
+        "name": "Analysis Framework Development",
+        "type": "Research",
+        "department": "Engineering",
+        "number": "P1398",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Jupyter",
+          "Python",
+          "Scikit-learn",
+          "Hadoop",
+          "R"
+        ],
+        "start_date": "2023-03-01",
+        "end_date": "2023-07-13",
+        "status": "Completed",
+        "budget": 1069691,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 13303
+      },
+      "e449fea8-aa95-40ed-9ebe-b3c2660a3fb7": {
+        "id": "e449fea8-aa95-40ed-9ebe-b3c2660a3fb7",
+        "name": "Study System Analysis",
+        "type": "Research",
+        "department": "IT",
+        "number": "P3805",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Scikit-learn",
+          "Hadoop",
+          "Pandas",
+          "Google Cloud",
+          "R",
+          "TensorFlow",
+          "Terraform",
+          "S3"
+        ],
+        "start_date": "2024-09-11",
+        "end_date": null,
+        "status": "Active",
+        "budget": 2893024,
+        "priority": "Low",
+        "complexity": "High",
+        "quota_gb": 17855
+      },
+      "ec1b41a3-366b-44a0-bd6f-90250cb5e548": {
+        "id": "ec1b41a3-366b-44a0-bd6f-90250cb5e548",
+        "name": "Firewall Implementation",
+        "type": "Security",
+        "department": "IT",
+        "number": "P7447",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Burp Suite",
+          "Azure",
+          "Penetration Testing",
+          "SIEM",
+          "Wireshark",
+          "Terraform",
+          "S3"
+        ],
+        "start_date": "2024-10-31",
+        "end_date": null,
+        "status": "On Hold",
+        "budget": 246507,
+        "priority": "Low",
+        "complexity": "Medium",
+        "quota_gb": 235
+      },
+      "cc64e8d4-f631-4f20-9ae5-59e3c004fb37": {
+        "id": "cc64e8d4-f631-4f20-9ae5-59e3c004fb37",
+        "name": "Budget Planning Upgrade",
+        "type": "Finance",
+        "department": "Business",
+        "number": "P2023",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Salesforce",
+          "SAP Finance",
+          "Excel Advanced",
+          "Xero",
+          "Tableau",
+          "ADP Payroll",
+          "RDS",
+          "Oracle",
+          "Jira",
+          "AWS",
+          "Oracle Financials",
+          "Google Analytics",
+          "Terraform",
+          "Power BI"
+        ],
+        "start_date": "2024-08-13",
+        "end_date": null,
+        "status": "Active",
+        "budget": 241111,
+        "priority": "High",
+        "complexity": "Low",
+        "quota_gb": 292
+      },
+      "dcbd0ab9-d741-4228-b65e-aa74858e9626": {
+        "id": "dcbd0ab9-d741-4228-b65e-aa74858e9626",
+        "name": "Analytics Platform Optimization - v2",
+        "type": "Data Science",
+        "department": "IT",
+        "number": "P1236",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Go",
+          "Jupyter",
+          "Spark",
+          "Git",
+          "JavaScript",
+          "Pandas",
+          "Kubernetes",
+          "R",
+          "TensorFlow"
+        ],
+        "start_date": "2023-05-20",
+        "end_date": "2023-12-26",
+        "status": "Cancelled",
+        "budget": 3301708,
+        "priority": "High",
+        "complexity": "Low",
+        "quota_gb": 23716
+      },
+      "df5d2e26-4e89-45cf-9038-aa67a2c09a30": {
+        "id": "df5d2e26-4e89-45cf-9038-aa67a2c09a30",
+        "name": "CAD System Optimization",
+        "type": "Engineering",
+        "department": "Engineering",
+        "number": "P5643",
+        "assigned_users": [],
+        "likely_technologies": [
+          "AutoCAD",
+          "Inventor",
+          "Go",
+          "PTC Creo",
+          "Angular",
+          "SolidWorks",
+          "Git",
+          "Spring Boot",
+          "React",
+          "LabVIEW",
+          "Kubernetes",
+          "Node.js"
+        ],
+        "start_date": "2024-02-29",
+        "end_date": "2024-07-10",
+        "status": "Completed",
+        "budget": 677248,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 4176
+      },
+      "687eef34-f8d0-4a27-ab5c-acd94543d06a": {
+        "id": "687eef34-f8d0-4a27-ab5c-acd94543d06a",
+        "name": "API Service Refactoring",
+        "type": "Software Development",
+        "department": "Operations",
+        "number": "P2172",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Django",
+          "Docker",
+          "Looker",
+          "EC2",
+          "Flask",
+          "RDS",
+          "Terraform",
+          "Git",
+          "Power BI",
+          "DynamoDB",
+          "JavaScript",
+          "Kubernetes",
+          "Node.js",
+          "S3"
+        ],
+        "start_date": "2024-05-03",
+        "end_date": "2024-12-19",
+        "status": "Cancelled",
+        "budget": 492090,
+        "priority": "Medium",
+        "complexity": "Low",
+        "quota_gb": 3745
+      },
+      "9dac6773-259e-4123-bbcc-388fc66528be": {
+        "id": "9dac6773-259e-4123-bbcc-388fc66528be",
+        "name": "ML Pipeline Training",
+        "type": "Data Science",
+        "department": "IT",
+        "number": "P2583",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Azure",
+          "Django",
+          "SQL",
+          "Angular",
+          "Git",
+          "NumPy",
+          "Kubernetes",
+          "Pandas",
+          "EC2",
+          "R",
+          "TensorFlow",
+          "Terraform"
+        ],
+        "start_date": "2024-08-13",
+        "end_date": null,
+        "status": "Active",
+        "budget": 2340056,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 28466
+      },
+      "ead70991-7ee9-418a-ab19-d31c5848aeaf": {
+        "id": "ead70991-7ee9-418a-ab19-d31c5848aeaf",
+        "name": "CAD System Optimization",
+        "type": "Engineering",
+        "department": "Engineering",
+        "number": "P5603",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Django",
+          "Inventor",
+          "AutoCAD",
+          "Angular",
+          "SolidWorks",
+          "MATLAB",
+          "Spring Boot",
+          "React",
+          "LabVIEW",
+          "JavaScript",
+          "Kubernetes",
+          "C#"
+        ],
+        "start_date": "2024-12-16",
+        "end_date": null,
+        "status": "Active",
+        "budget": 1989519,
+        "priority": "Medium",
+        "complexity": "Low",
+        "quota_gb": 3209
+      },
+      "1d70fc23-6074-46b0-b5ca-900ec0eef70c": {
+        "id": "1d70fc23-6074-46b0-b5ca-900ec0eef70c",
+        "name": "AI Model Optimization",
+        "type": "AI/ML",
+        "department": "IT",
+        "number": "P9745",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Django",
+          "Docker",
+          "Python",
+          "Vue.js",
+          "Scikit-learn",
+          "JavaScript",
+          "React",
+          "Pandas",
+          "Kubernetes",
+          "R",
+          "TensorFlow",
+          "Node.js"
+        ],
+        "start_date": "2023-07-28",
+        "end_date": "2023-11-14",
+        "status": "Completed",
+        "budget": 2268808,
+        "priority": "Medium",
+        "complexity": "Low",
+        "quota_gb": 12972
+      },
+      "edbbc0a8-7962-4d24-a6de-8349ffedca19": {
+        "id": "edbbc0a8-7962-4d24-a6de-8349ffedca19",
+        "name": "CRM Optimization",
+        "type": "Business",
+        "department": "IT",
+        "number": "P9159",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Salesforce",
+          "Python",
+          "Oracle",
+          "Google Analytics",
+          "SharePoint"
+        ],
+        "start_date": "2023-06-10",
+        "end_date": "2024-01-23",
+        "status": "Completed",
+        "budget": 59383,
+        "priority": "Low",
+        "complexity": "Low",
+        "quota_gb": 184
+      },
+      "84a7d0e6-94cb-4ce9-be1f-0c7000ee3663": {
+        "id": "84a7d0e6-94cb-4ce9-be1f-0c7000ee3663",
+        "name": "Authentication Upgrade",
+        "type": "Security",
+        "department": "IT",
+        "number": "P7803",
+        "assigned_users": [],
+        "likely_technologies": [
+          "Burp Suite",
+          "Wireshark",
+          "SIEM",
+          "Metasploit"
+        ],
+        "start_date": "2023-05-24",
+        "end_date": "2024-01-11",
+        "status": "Cancelled",
+        "budget": 330689,
+        "priority": "High",
+        "complexity": "Medium",
+        "quota_gb": 290
+      }
+    },
+    "users": {
+      "3a0ebabd-ac9a-4944-a99f-4ca4ea8015bb": {
+        "name": "Kenta Kato",
+        "true_name": "Kenta Kato",
+        "role": "CEO",
+        "level": "Executive",
+        "department": "Business",
+        "current_technologies": [
+          "Salesforce",
+          "Microsoft Office"
+        ],
+        "assigned_projects": [
+          "56ba66d3-e87f-4d70-9b12-48501a88dd22"
+        ],
+        "problems": []
+      },
+      "b39ae54c-4903-47e4-85e8-3de13ed6c77f": {
+        "name": "Alfred Phillips",
+        "true_name": "Alfred Phillips",
+        "role": "CFO",
+        "level": "Executive",
+        "department": "Business",
+        "current_technologies": [
+          "Salesforce",
+          "Oracle"
+        ],
+        "assigned_projects": [
+          "2d6d90bc-d45a-44ef-ac2c-691d333bf8b3",
+          "ed91b3eb-fddf-4ace-bb5d-87b281b03c2f"
+        ],
+        "problems": [
+          "Large personal email archives",
+          "Large personal music collection (>100GB)"
+        ]
+      },
+      "beecbd81-5e44-40aa-b6d6-0895cf82abf6": {
+        "name": "Michael Whitney",
+        "true_name": "Michael Whitney",
+        "role": "CFO",
+        "level": "Executive",
+        "department": "Business",
+        "current_technologies": [
+          "Salesforce",
+          "Microsoft Office"
+        ],
+        "assigned_projects": [
+          "a8cd0e69-c233-413e-b14b-dfeb1fb7306d",
+          "2b9e67b6-decf-4402-bc47-8323931ec6ba"
+        ],
+        "problems": [
+          "Unauthorized media streaming setup",
+          "Large personal music collection (>100GB)"
+        ]
+      },
+      "a0d2fab6-5827-4435-b484-66f89e60cc8a": {
+        "name": "Elizabeth Morrow",
+        "true_name": "Elizabeth Morrow",
+        "role": "CFO",
+        "level": "Executive",
+        "department": "Business",
+        "current_technologies": [
+          "Microsoft Office",
+          "Oracle"
+        ],
+        "assigned_projects": [
+          "21e0862a-8377-462a-830f-c4fa41424228",
+          "26744040-6be4-452d-9f2d-9dcb7d9144c7",
+          "c4f272b6-18b8-44b0-9e7f-9d465859c510"
+        ],
+        "problems": [
+          "Steam games installed on work drive",
+          "Personal backup files"
+        ]
+      },
+      "eeaab170-7db5-422a-9dc5-43c7f0f487b4": {
+        "name": "Maria Hernandez",
+        "true_name": "Maria Hernandez",
+        "role": "CFO",
+        "level": "Executive",
+        "department": "Business",
+        "current_technologies": [
+          "Microsoft Office",
+          "Oracle"
+        ],
+        "assigned_projects": [],
+        "problems": []
+      },
+      "2969b476-aa90-48a4-83b2-80afa472b534": {
+        "name": "Aki Watanabe",
+        "true_name": "Aki Watanabe",
+        "role": "Accounting Director",
+        "level": "Director",
+        "department": "Finance",
+        "current_technologies": [
+          "SharePoint",
+          "Microsoft Office"
+        ],
+        "assigned_projects": [
+          "91228c66-e869-4c2d-a7c4-b22c5de9140e",
+          "296385b6-9c8d-4c10-9de5-13f69de4b830",
+          "1bb1fa0d-abab-433c-9c48-ebe7a96ccfcc"
+        ],
+        "reports_to": "eeaab170-7db5-422a-9dc5-43c7f0f487b4"
+      },
+      "638d5930-6dac-4ce7-b702-4a99656d3759": {
+        "name": "Kenji Yamada",
+        "true_name": "Kenji Yamada",
+        "role": "Operations Director",
+        "level": "Director",
+        "department": "Operations",
+        "current_technologies": [
+          "Oracle",
+          "Jira",
+          "EC2",
+          "Terraform",
+          "S3"
+        ],
+        "assigned_projects": [
+          "8f9bc36e-98f4-4d0d-a12c-e7ed718a56a1",
+          "e7436c7e-56b6-46e0-b7d7-da6f8520b73a",
+          "51f75489-5ad5-410f-9d14-3f83b30612a5"
+        ],
+        "reports_to": "b39ae54c-4903-47e4-85e8-3de13ed6c77f"
+      },
+      "bf1f9e14-5cb8-4339-b54d-b9f79fd17115": {
+        "name": "Hana Kato",
+        "true_name": "Hana Kato",
+        "role": "IT Director",
+        "level": "Director",
+        "department": "IT",
+        "current_technologies": [
+          "Azure",
+          "Oracle",
+          "Jira",
+          "Kubernetes",
+          "Terraform"
+        ],
+        "assigned_projects": [
+          "2b9e67b6-decf-4402-bc47-8323931ec6ba",
+          "eb12b69b-0aec-46e5-af06-4f75313a6206",
+          "cea7d671-389e-42d2-8a1c-2927da9f2c0c"
+        ],
+        "reports_to": "eeaab170-7db5-422a-9dc5-43c7f0f487b4"
+      },
+      "5e51b605-5e1b-43ab-90e7-726ad4079b71": {
+        "name": "Jose Rodriguez",
+        "true_name": "Jose Rodriguez",
+        "role": "Operations Director",
+        "level": "Director",
+        "department": "Operations",
+        "current_technologies": [
+          "Confluence",
+          "Microsoft Office",
+          "Kubernetes",
+          "Google Cloud",
+          "S3"
+        ],
+        "assigned_projects": [
+          "4df2fac4-5e8c-4217-9486-28bac138a82e",
+          "a9b477db-064d-4b33-b64b-098f438cd998",
+          "1bb1fa0d-abab-433c-9c48-ebe7a96ccfcc",
+          "56ba66d3-e87f-4d70-9b12-48501a88dd22"
+        ],
+        "reports_to": "b39ae54c-4903-47e4-85e8-3de13ed6c77f"
+      },
+      "9a38bb27-626c-4083-bb94-d74639a636b6": {
+        "name": "Fred Nelson",
+        "true_name": "Fred Nelson",
+        "role": "Engineering Director",
+        "level": "Director",
+        "department": "Engineering",
+        "current_technologies": [
+          "Azure",
+          "Angular",
+          "Vue.js",
+          "AWS",
+          "JavaScript",
+          "Kubernetes",
+          "S3"
+        ],
+        "assigned_projects": [
+          "51f75489-5ad5-410f-9d14-3f83b30612a5",
+          "a9b477db-064d-4b33-b64b-098f438cd998",
+          "e4cf3dcd-1192-47b8-b3e4-2557f59215dd",
+          "d65ae68d-60ee-4df9-bb83-7ca8719b4418",
+          "dcbd0ab9-d741-4228-b65e-aa74858e9626",
+          "687eef34-f8d0-4a27-ab5c-acd94543d06a"
+        ],
+        "reports_to": "3a0ebabd-ac9a-4944-a99f-4ca4ea8015bb"
+      },
+      "31a54dd2-09e2-451a-b709-032f7637e029": {
+        "name": "Kenta Kobayashi",
+        "true_name": "Kenta Kobayashi",
+        "role": "Engineering Director",
+        "level": "Director",
+        "department": "Engineering",
+        "current_technologies": [
+          "Azure",
+          "Java",
+          "Vue.js",
+          "Lambda",
+          "CloudFormation",
+          "C#",
+          "Node.js"
+        ],
+        "assigned_projects": [
+          "d27d32b3-ec07-4831-a731-169fe13ecaa6",
+          "02e12cf9-2983-4ce1-85e0-f3dd6219e9af",
+          "5c615417-9b9e-4168-9c38-99d7ca80c889"
+        ],
+        "reports_to": "b39ae54c-4903-47e4-85e8-3de13ed6c77f"
+      },
+      "1ecd65e7-5ce4-41c3-92e8-409fab28cb29": {
+        "name": "Dominga Williams",
+        "true_name": "Dominga Williams",
+        "role": "IT Director",
+        "level": "Director",
+        "department": "IT",
+        "current_technologies": [
+          "Azure",
+          "SAP",
+          "Jira",
+          "DynamoDB",
+          "RDS"
+        ],
+        "assigned_projects": [
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265",
+          "9dac6773-259e-4123-bbcc-388fc66528be",
+          "be170937-bdcd-4e4f-bfbd-7bfb642d95da"
+        ],
+        "reports_to": "a0d2fab6-5827-4435-b484-66f89e60cc8a"
+      },
+      "af0bbce3-4ddb-4bc2-baf3-8bc7000c932f": {
+        "name": "Armando Anderson",
+        "true_name": "Armando Anderson",
+        "role": "Accounting Director",
+        "level": "Director",
+        "department": "Finance",
+        "current_technologies": [
+          "Salesforce",
+          "Microsoft Office"
+        ],
+        "assigned_projects": [
+          "02e12cf9-2983-4ce1-85e0-f3dd6219e9af",
+          "2d6d90bc-d45a-44ef-ac2c-691d333bf8b3",
+          "40572786-dde2-4e01-8ab4-5fecea64af7e"
+        ],
+        "reports_to": "eeaab170-7db5-422a-9dc5-43c7f0f487b4"
+      },
+      "96fa345f-d4c9-4410-b00e-eaa293fcaeb2": {
+        "name": "Leroy Kulp",
+        "true_name": "Leroy Kulp",
+        "role": "Engineering Director",
+        "level": "Director",
+        "department": "Engineering",
+        "current_technologies": [
+          "Java",
+          "Docker",
+          "Spring Boot",
+          "JavaScript",
+          "Kubernetes",
+          "Terraform",
+          "S3"
+        ],
+        "assigned_projects": [
+          "51f75489-5ad5-410f-9d14-3f83b30612a5",
+          "7e7b9bdc-99a8-4c46-86ca-d2913179cd81",
+          "62ce63c3-0a1b-4d7d-8a12-1d279bc7e821"
+        ],
+        "reports_to": "b39ae54c-4903-47e4-85e8-3de13ed6c77f"
+      },
+      "ace31a6d-dc56-46b3-8ad8-914bb53f78b8": {
+        "name": "Gloria Howell",
+        "true_name": "Gloria Howell",
+        "role": "Accounting Director",
+        "level": "Director",
+        "department": "Finance",
+        "current_technologies": [
+          "Jira",
+          "Salesforce"
+        ],
+        "assigned_projects": [
+          "7d8cfa85-2be7-4d05-a9b8-dfbc8ad5b6af",
+          "9d9a78cf-5cf6-401c-8b92-2a660223b40e",
+          "cc64e8d4-f631-4f20-9ae5-59e3c004fb37"
+        ],
+        "reports_to": "a0d2fab6-5827-4435-b484-66f89e60cc8a"
+      },
+      "19910435-bf1a-484e-adf8-f0609ca491d1": {
+        "name": "Ryan Jung",
+        "true_name": "Ryan Jung",
+        "role": "Project Manager",
+        "level": "Manager",
+        "department": "Engineering",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "SharePoint"
+        ],
+        "assigned_projects": [
+          "eb12b69b-0aec-46e5-af06-4f75313a6206",
+          "e449fea8-aa95-40ed-9ebe-b3c2660a3fb7",
+          "df5d2e26-4e89-45cf-9038-aa67a2c09a30",
+          "687eef34-f8d0-4a27-ab5c-acd94543d06a",
+          "84a7d0e6-94cb-4ce9-be1f-0c7000ee3663"
+        ],
+        "reports_to": "ace31a6d-dc56-46b3-8ad8-914bb53f78b8"
+      },
+      "10ad79dc-2add-4ab1-84cc-32bd1d8681d3": {
+        "name": "Rosalyn May",
+        "true_name": "Rosalyn May",
+        "role": "Development Manager",
+        "level": "Manager",
+        "department": "IT",
+        "current_technologies": [
+          "Go",
+          "Vue.js",
+          "EC2",
+          "Flask",
+          "Lambda",
+          "CloudFormation",
+          "Git",
+          "Spring Boot",
+          "React",
+          "DynamoDB",
+          "Kubernetes",
+          "Terraform",
+          "S3"
+        ],
+        "assigned_projects": [
+          "d27d32b3-ec07-4831-a731-169fe13ecaa6",
+          "91228c66-e869-4c2d-a7c4-b22c5de9140e",
+          "0efc82ff-3fd4-411c-ab27-019bc03ebc1f"
+        ],
+        "reports_to": "31a54dd2-09e2-451a-b709-032f7637e029"
+      },
+      "df2325c7-2aae-46a2-8d77-958cdd170ad1": {
+        "name": "Virginia Murphy",
+        "true_name": "Virginia Murphy",
+        "role": "Infrastructure Manager",
+        "level": "Manager",
+        "department": "IT",
+        "current_technologies": [
+          "Azure",
+          "Google Cloud",
+          "CloudFormation",
+          "Kubernetes",
+          "DynamoDB",
+          "EC2"
+        ],
+        "assigned_projects": [
+          "a5d6d76b-7f1e-440d-8ccc-081caad53679",
+          "edbbc0a8-7962-4d24-a6de-8349ffedca19",
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360"
+        ],
+        "reports_to": "2969b476-aa90-48a4-83b2-80afa472b534"
+      },
+      "fd654db6-1f40-49f1-84c6-fe3c1055073e": {
+        "name": "Flora Rose",
+        "true_name": "Flora Rose",
+        "role": "Product Manager",
+        "level": "Manager",
+        "department": "Engineering",
+        "current_technologies": [
+          "SharePoint",
+          "Salesforce",
+          "SAP"
+        ],
+        "assigned_projects": [
+          "be170937-bdcd-4e4f-bfbd-7bfb642d95da",
+          "93ea6809-0e36-4186-92ed-a9071ff92489",
+          "e449fea8-aa95-40ed-9ebe-b3c2660a3fb7"
+        ],
+        "reports_to": "638d5930-6dac-4ce7-b702-4a99656d3759"
+      },
+      "b1e471ff-bde3-409b-aa2a-d5589fb1fb74": {
+        "name": "Sofia Sanchez",
+        "true_name": "Sofia Sanchez",
+        "role": "Project Manager",
+        "level": "Manager",
+        "department": "Engineering",
+        "current_technologies": [
+          "Microsoft Office",
+          "Confluence",
+          "SAP"
+        ],
+        "assigned_projects": [
+          "a8cd0e69-c233-413e-b14b-dfeb1fb7306d",
+          "cea7d671-389e-42d2-8a1c-2927da9f2c0c",
+          "51f75489-5ad5-410f-9d14-3f83b30612a5",
+          "be170937-bdcd-4e4f-bfbd-7bfb642d95da",
+          "2c68672e-6bc3-4607-8db0-b0c6568e4a06",
+          "e449fea8-aa95-40ed-9ebe-b3c2660a3fb7"
+        ],
+        "reports_to": "af0bbce3-4ddb-4bc2-baf3-8bc7000c932f"
+      },
+      "a4f22151-68cf-4276-84e8-e5dd65bb783a": {
+        "name": "Michael Gustin",
+        "true_name": "Michael Gustin",
+        "role": "Budget Manager",
+        "level": "Manager",
+        "department": "Finance",
+        "current_technologies": [
+          "Salesforce",
+          "SharePoint",
+          "Oracle"
+        ],
+        "assigned_projects": [
+          "62ce63c3-0a1b-4d7d-8a12-1d279bc7e821",
+          "e7436c7e-56b6-46e0-b7d7-da6f8520b73a",
+          "58467216-3bd0-4dbc-8dbf-6bf76e4e81f5"
+        ],
+        "reports_to": "bf1f9e14-5cb8-4339-b54d-b9f79fd17115"
+      },
+      "73fb6208-48ed-4584-9846-3dd89d417ecd": {
+        "name": "Laura Ball",
+        "true_name": "Laura Ball",
+        "role": "Accounting Manager",
+        "level": "Manager",
+        "department": "Finance",
+        "current_technologies": [
+          "Jira",
+          "SharePoint",
+          "Oracle"
+        ],
+        "assigned_projects": [
+          "8f9bc36e-98f4-4d0d-a12c-e7ed718a56a1",
+          "1d70fc23-6074-46b0-b5ca-900ec0eef70c",
+          "4df2fac4-5e8c-4217-9486-28bac138a82e"
+        ],
+        "reports_to": "bf1f9e14-5cb8-4339-b54d-b9f79fd17115"
+      },
+      "b68d936e-9ca8-4009-9c3e-a1bc11f0e419": {
+        "name": "Jose Martinez",
+        "true_name": "Jose Martinez",
+        "role": "Support Manager",
+        "level": "Manager",
+        "department": "Operations",
+        "current_technologies": [
+          "Microsoft Office",
+          "Oracle",
+          "SAP"
+        ],
+        "assigned_projects": [
+          "21e0862a-8377-462a-830f-c4fa41424228",
+          "a9b477db-064d-4b33-b64b-098f438cd998",
+          "7a309fbc-754f-4539-8a6e-345383275cfd",
+          "02e12cf9-2983-4ce1-85e0-f3dd6219e9af",
+          "cc64e8d4-f631-4f20-9ae5-59e3c004fb37"
+        ],
+        "reports_to": "96fa345f-d4c9-4410-b00e-eaa293fcaeb2"
+      },
+      "d06908de-4aaf-4a19-8f9a-f37ddcae4300": {
+        "name": "Ana Lopez",
+        "true_name": "Ana Lopez",
+        "role": "Support Manager",
+        "level": "Manager",
+        "department": "Operations",
+        "current_technologies": [
+          "SharePoint",
+          "Confluence",
+          "Oracle"
+        ],
+        "assigned_projects": [
+          "cea7d671-389e-42d2-8a1c-2927da9f2c0c",
+          "93ea6809-0e36-4186-92ed-a9071ff92489",
+          "a9b477db-064d-4b33-b64b-098f438cd998",
+          "eb12b69b-0aec-46e5-af06-4f75313a6206"
+        ],
+        "reports_to": "bf1f9e14-5cb8-4339-b54d-b9f79fd17115"
+      },
+      "5daf064a-1ddf-4bc4-bdb9-fa9292498514": {
+        "name": "Scott Mcqueen",
+        "true_name": "Scott Mcqueen",
+        "role": "Development Manager",
+        "level": "Manager",
+        "department": "IT",
+        "current_technologies": [
+          "Django",
+          "Azure",
+          "Go",
+          "Angular",
+          "EC2",
+          "Lambda",
+          "Git",
+          "Spring Boot",
+          "React",
+          "DynamoDB",
+          "Kubernetes",
+          "RDS",
+          "S3"
+        ],
+        "assigned_projects": [
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360",
+          "2d6d90bc-d45a-44ef-ac2c-691d333bf8b3",
+          "ead70991-7ee9-418a-ab19-d31c5848aeaf",
+          "edbbc0a8-7962-4d24-a6de-8349ffedca19"
+        ],
+        "reports_to": "2969b476-aa90-48a4-83b2-80afa472b534"
+      },
+      "c86a7fa0-346a-4749-aef9-6d3d87835e6c": {
+        "name": "Garrett Northern",
+        "true_name": "Garrett Northern",
+        "role": "Development Manager",
+        "level": "Manager",
+        "department": "IT",
+        "current_technologies": [
+          "Django",
+          "Java",
+          "Angular",
+          "Docker",
+          "Python",
+          "Lambda",
+          "CloudFormation",
+          "Git",
+          "Spring Boot",
+          "AWS",
+          "JavaScript",
+          "Google Cloud",
+          "Terraform"
+        ],
+        "assigned_projects": [
+          "93ea6809-0e36-4186-92ed-a9071ff92489",
+          "e7436c7e-56b6-46e0-b7d7-da6f8520b73a",
+          "a8cd0e69-c233-413e-b14b-dfeb1fb7306d"
+        ],
+        "reports_to": "31a54dd2-09e2-451a-b709-032f7637e029"
+      },
+      "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4": {
+        "name": "Connie Miller",
+        "true_name": "Connie Miller",
+        "role": "Product Manager",
+        "level": "Manager",
+        "department": "Engineering",
+        "current_technologies": [
+          "Salesforce",
+          "Confluence",
+          "SAP"
+        ],
+        "assigned_projects": [
+          "5e40d759-fc20-4d22-8a11-292570642038",
+          "2b9e67b6-decf-4402-bc47-8323931ec6ba",
+          "77d77f5e-48ec-4d3e-944f-2452c63e88d9"
+        ],
+        "reports_to": "9a38bb27-626c-4083-bb94-d74639a636b6"
+      },
+      "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b": {
+        "name": "Maria Garcia",
+        "true_name": "Maria Garcia",
+        "role": "Operations Manager",
+        "level": "Manager",
+        "department": "Operations",
+        "current_technologies": [
+          "Docker",
+          "Terraform",
+          "AWS",
+          "Microsoft Office",
+          "Jira",
+          "Google Cloud",
+          "SharePoint",
+          "RDS",
+          "S3"
+        ],
+        "assigned_projects": [
+          "93ea6809-0e36-4186-92ed-a9071ff92489",
+          "21e0862a-8377-462a-830f-c4fa41424228",
+          "a9b477db-064d-4b33-b64b-098f438cd998"
+        ],
+        "reports_to": "ace31a6d-dc56-46b3-8ad8-914bb53f78b8"
+      },
+      "a88888f3-ad17-4585-9017-38009608b42d": {
+        "name": "Hana Yamada",
+        "true_name": "Hana Yamada",
+        "role": "Support Manager",
+        "level": "Manager",
+        "department": "Operations",
+        "current_technologies": [
+          "SharePoint",
+          "Microsoft Office",
+          "Salesforce"
+        ],
+        "assigned_projects": [
+          "ed91b3eb-fddf-4ace-bb5d-87b281b03c2f",
+          "7a309fbc-754f-4539-8a6e-345383275cfd",
+          "ec1b41a3-366b-44a0-bd6f-90250cb5e548"
+        ],
+        "reports_to": "1ecd65e7-5ce4-41c3-92e8-409fab28cb29"
+      },
+      "80e8b057-7427-4630-a1c4-f2fa67e0d704": {
+        "name": "Kai Suzuki",
+        "true_name": "Kai Suzuki",
+        "role": "Budget Manager",
+        "level": "Manager",
+        "department": "Finance",
+        "current_technologies": [
+          "SharePoint",
+          "Confluence",
+          "Oracle"
+        ],
+        "assigned_projects": [
+          "edbbc0a8-7962-4d24-a6de-8349ffedca19",
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265",
+          "d27d32b3-ec07-4831-a731-169fe13ecaa6"
+        ],
+        "reports_to": "9a38bb27-626c-4083-bb94-d74639a636b6"
+      },
+      "d41803f2-a247-4528-a7b8-5730ba65c72c": {
+        "name": "Marianne Miller",
+        "true_name": "Marianne Miller",
+        "role": "Junior Developer",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "SharePoint",
+          "Microsoft Office",
+          "Confluence",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "7a309fbc-754f-4539-8a6e-345383275cfd",
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265"
+        ],
+        "reports_to": "19910435-bf1a-484e-adf8-f0609ca491d1"
+      },
+      "7aba27fe-f18a-46e5-a972-93dc3091eb02": {
+        "name": "Beulah Patten",
+        "true_name": "Beulah Patten",
+        "role": "Database Administrator",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Jira",
+          "Salesforce",
+          "Confluence",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "58467216-3bd0-4dbc-8dbf-6bf76e4e81f5",
+          "cc64e8d4-f631-4f20-9ae5-59e3c004fb37"
+        ],
+        "reports_to": "10ad79dc-2add-4ab1-84cc-32bd1d8681d3"
+      },
+      "3b4b5f39-da89-4915-a215-abdee7f9d039": {
+        "name": "Eloise Edgar",
+        "true_name": "Eloise Edgar",
+        "role": "Data Analyst",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Oracle",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "91228c66-e869-4c2d-a7c4-b22c5de9140e",
+          "554934b4-31c9-4bb5-ad08-c403836d9848"
+        ],
+        "reports_to": "df2325c7-2aae-46a2-8d77-958cdd170ad1"
+      },
+      "ef84d662-3206-4e8f-beb0-b0f8d253fa26": {
+        "name": "Aki Yamaguchi",
+        "true_name": "中川 くみ子",
+        "role": "Software Engineer",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Go",
+          "Java",
+          "Docker",
+          "Python",
+          "Flask",
+          "Git",
+          "React",
+          "Kubernetes",
+          "C#",
+          "Node.js"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "58467216-3bd0-4dbc-8dbf-6bf76e4e81f5",
+          "93ea6809-0e36-4186-92ed-a9071ff92489"
+        ],
+        "reports_to": "fd654db6-1f40-49f1-84c6-fe3c1055073e"
+      },
+      "8a36e52e-d888-463c-a292-a97c81a716c6": {
+        "name": "Kai Yamada",
+        "true_name": "中村 花子",
+        "role": "Data Scientist",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Django",
+          "Java",
+          "SQL",
+          "Pandas",
+          "Angular",
+          "Python",
+          "Flask",
+          "Git",
+          "NumPy",
+          "Hadoop",
+          "JavaScript",
+          "React",
+          "Spark",
+          "C#",
+          "TensorFlow",
+          "Node.js",
+          "PyTorch"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [],
+        "reports_to": "b1e471ff-bde3-409b-aa2a-d5589fb1fb74"
+      },
+      "0fbbdb20-336f-4e37-a9b1-a5e15e398480": {
+        "name": "Ola Curran",
+        "true_name": "Ola Curran",
+        "role": "Developer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "SharePoint",
+          "Microsoft Office",
+          "Confluence",
+          "Salesforce"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "4df2fac4-5e8c-4217-9486-28bac138a82e",
+          "77d77f5e-48ec-4d3e-944f-2452c63e88d9",
+          "7e7b9bdc-99a8-4c46-86ca-d2913179cd81"
+        ],
+        "reports_to": "a4f22151-68cf-4276-84e8-e5dd65bb783a"
+      },
+      "3ec76a2c-436e-4cda-8414-929a053f1429": {
+        "name": "Bridget Anderson",
+        "true_name": "Bridget Anderson",
+        "role": "Senior Developer",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Salesforce",
+          "Oracle",
+          "Confluence",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "58467216-3bd0-4dbc-8dbf-6bf76e4e81f5",
+          "992f5c70-f468-49f5-bf70-538cf031f43f",
+          "ed91b3eb-fddf-4ace-bb5d-87b281b03c2f",
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265"
+        ],
+        "reports_to": "73fb6208-48ed-4584-9846-3dd89d417ecd"
+      },
+      "6bec9f5b-c92c-4a95-ba94-bb1e7c187c3d": {
+        "name": "Eric Edwards",
+        "true_name": "Eric Edwards",
+        "role": "Senior Developer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Jira",
+          "Salesforce",
+          "Microsoft Office",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "2b9e67b6-decf-4402-bc47-8323931ec6ba",
+          "5e40d759-fc20-4d22-8a11-292570642038",
+          "e4cf3dcd-1192-47b8-b3e4-2557f59215dd",
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265"
+        ],
+        "reports_to": "b68d936e-9ca8-4009-9c3e-a1bc11f0e419"
+      },
+      "a2f62f38-2ca9-44c7-b76b-4d2fc58f05f9": {
+        "name": "Craig Turner",
+        "true_name": "Craig Turner",
+        "role": "Software Engineer",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Django",
+          "Go",
+          "Angular",
+          "Docker",
+          "Python",
+          "Vue.js",
+          "Git",
+          "Spring Boot",
+          "React",
+          "JavaScript"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "4df2fac4-5e8c-4217-9486-28bac138a82e",
+          "c4f272b6-18b8-44b0-9e7f-9d465859c510",
+          "e449fea8-aa95-40ed-9ebe-b3c2660a3fb7"
+        ],
+        "reports_to": "d06908de-4aaf-4a19-8f9a-f37ddcae4300"
+      },
+      "8591bd98-4d53-40f5-b308-0a50c4944b6e": {
+        "name": "Carlos Torres",
+        "true_name": "Carlos Torres",
+        "role": "Data Scientist",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Django",
+          "Java",
+          "Jupyter",
+          "SQL",
+          "Pandas",
+          "Docker",
+          "Vue.js",
+          "Python",
+          "Angular",
+          "Flask",
+          "Scikit-learn",
+          "Spring Boot",
+          "React",
+          "Spark",
+          "C#",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360"
+        ],
+        "reports_to": "5daf064a-1ddf-4bc4-bdb9-fa9292498514"
+      },
+      "cb566e10-59a3-472d-adc3-45bcba23f2ea": {
+        "name": "Miguel Rodriguez",
+        "true_name": "Miguel Rodríguez",
+        "role": "Data Analyst",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Salesforce",
+          "SAP",
+          "Confluence",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "56ba66d3-e87f-4d70-9b12-48501a88dd22"
+        ],
+        "reports_to": "c86a7fa0-346a-4749-aef9-6d3d87835e6c"
+      },
+      "ccaf67f4-3057-4c5a-b12c-a06e378a0234": {
+        "name": "Emily Peters",
+        "true_name": "Emily Peters",
+        "role": "Senior Developer",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Salesforce",
+          "Microsoft Office",
+          "Confluence",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "1bb1fa0d-abab-433c-9c48-ebe7a96ccfcc",
+          "ed91b3eb-fddf-4ace-bb5d-87b281b03c2f",
+          "a8cd0e69-c233-413e-b14b-dfeb1fb7306d",
+          "62ce63c3-0a1b-4d7d-8a12-1d279bc7e821"
+        ],
+        "reports_to": "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4"
+      },
+      "d21b046f-d038-4c62-89f9-78e6c28d59a4": {
+        "name": "William Gifford",
+        "true_name": "William Gifford",
+        "role": "Data Scientist",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Django",
+          "Go",
+          "Java",
+          "Jupyter",
+          "SQL",
+          "Angular",
+          "Python",
+          "Vue.js",
+          "NumPy",
+          "Spring Boot",
+          "Hadoop",
+          "JavaScript",
+          "Spark",
+          "C#",
+          "TensorFlow",
+          "Node.js",
+          "PyTorch"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [],
+        "reports_to": "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b"
+      },
+      "fdf5b531-75cc-4156-8c13-b75de78cd195": {
+        "name": "Mark Brown",
+        "true_name": "Mark Brown",
+        "role": "Support Specialist",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Salesforce",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "ec1b41a3-366b-44a0-bd6f-90250cb5e548"
+        ],
+        "reports_to": "a88888f3-ad17-4585-9017-38009608b42d"
+      },
+      "06d1efbd-3478-4389-933e-733d71e2f161": {
+        "name": "Elizabeth Allen",
+        "true_name": "Elizabeth Allen",
+        "role": "Senior Developer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Salesforce",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "62ce63c3-0a1b-4d7d-8a12-1d279bc7e821",
+          "554934b4-31c9-4bb5-ad08-c403836d9848",
+          "83b85c70-394f-4514-882a-a4757dd20643",
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360"
+        ],
+        "reports_to": "80e8b057-7427-4630-a1c4-f2fa67e0d704"
+      },
+      "51de9ba3-281a-4df8-8fd3-29a4c17c490a": {
+        "name": "Terry Kowalczyk",
+        "true_name": "Terry Kowalczyk",
+        "role": "Network Engineer",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Azure",
+          "Docker",
+          "CloudFormation",
+          "Terraform",
+          "AWS",
+          "DynamoDB",
+          "Kubernetes",
+          "RDS"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "d27d32b3-ec07-4831-a731-169fe13ecaa6",
+          "e449fea8-aa95-40ed-9ebe-b3c2660a3fb7"
+        ],
+        "reports_to": "19910435-bf1a-484e-adf8-f0609ca491d1"
+      },
+      "91c45ce1-de7e-495c-a1fc-a64ad9374ef9": {
+        "name": "Bryan Riggie",
+        "true_name": "Bryan Riggie",
+        "role": "Data Scientist",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Django",
+          "Go",
+          "Jupyter",
+          "Pandas",
+          "Docker",
+          "Flask",
+          "Git",
+          "NumPy",
+          "Spring Boot",
+          "Hadoop",
+          "React",
+          "JavaScript",
+          "Spark",
+          "Kubernetes",
+          "R",
+          "C#",
+          "PyTorch"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [],
+        "reports_to": "10ad79dc-2add-4ab1-84cc-32bd1d8681d3"
+      },
+      "254584fd-9002-4111-8630-7179bff2b81a": {
+        "name": "Miku Kato",
+        "true_name": "吉田 さゆり",
+        "role": "Network Engineer",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "RDS",
+          "Lambda",
+          "CloudFormation",
+          "AWS",
+          "Kubernetes",
+          "EC2",
+          "Terraform",
+          "S3"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "58467216-3bd0-4dbc-8dbf-6bf76e4e81f5",
+          "84a7d0e6-94cb-4ce9-be1f-0c7000ee3663"
+        ],
+        "reports_to": "df2325c7-2aae-46a2-8d77-958cdd170ad1"
+      },
+      "4fee7ff2-df44-476b-ba77-db52433549b9": {
+        "name": "Kevin Dean",
+        "true_name": "Kevin Dean",
+        "role": "Senior Engineer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Salesforce",
+          "SAP",
+          "Microsoft Office",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265",
+          "56ba66d3-e87f-4d70-9b12-48501a88dd22"
+        ],
+        "reports_to": "fd654db6-1f40-49f1-84c6-fe3c1055073e"
+      },
+      "59596566-e304-437f-a17a-9963b1613787": {
+        "name": "Kenji Yoshida",
+        "true_name": "小林 裕樹",
+        "role": "Software Engineer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Django",
+          "Go",
+          "Java",
+          "Angular",
+          "Python",
+          "Vue.js",
+          "Flask",
+          "Git",
+          "Spring Boot",
+          "Kubernetes"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "be170937-bdcd-4e4f-bfbd-7bfb642d95da",
+          "2d6d90bc-d45a-44ef-ac2c-691d333bf8b3",
+          "1bb1fa0d-abab-433c-9c48-ebe7a96ccfcc",
+          "0efc82ff-3fd4-411c-ab27-019bc03ebc1f",
+          "9d9a78cf-5cf6-401c-8b92-2a660223b40e"
+        ],
+        "reports_to": "b1e471ff-bde3-409b-aa2a-d5589fb1fb74"
+      },
+      "5ed100d4-72a5-4b17-800a-7e1f3c4b76ca": {
+        "name": "Miku Ito",
+        "true_name": "渡辺 春香",
+        "role": "Network Engineer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Azure",
+          "EC2",
+          "Lambda",
+          "CloudFormation",
+          "AWS",
+          "Kubernetes",
+          "Terraform",
+          "S3"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "c4f272b6-18b8-44b0-9e7f-9d465859c510"
+        ],
+        "reports_to": "a4f22151-68cf-4276-84e8-e5dd65bb783a"
+      },
+      "e96d91e6-f14e-4f51-bdad-f20712dd7804": {
+        "name": "Diana Stremming",
+        "true_name": "Diana Stremming",
+        "role": "Database Administrator",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Salesforce",
+          "Microsoft Office",
+          "Confluence",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "5c615417-9b9e-4168-9c38-99d7ca80c889"
+        ],
+        "reports_to": "73fb6208-48ed-4584-9846-3dd89d417ecd"
+      },
+      "15f776e1-f761-4d0e-ac16-14a6b42f3cda": {
+        "name": "Ryu Takahashi",
+        "true_name": "木村 結衣",
+        "role": "Software Engineer",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Go",
+          "Java",
+          "Angular",
+          "Docker",
+          "Vue.js",
+          "Git",
+          "Spring Boot",
+          "JavaScript",
+          "Kubernetes",
+          "C#"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "0efc82ff-3fd4-411c-ab27-019bc03ebc1f"
+        ],
+        "reports_to": "b68d936e-9ca8-4009-9c3e-a1bc11f0e419"
+      },
+      "ffccae75-b11d-4c61-9ecb-e74b09214568": {
+        "name": "Angel Gjertsen",
+        "true_name": "Angel Gjertsen",
+        "role": "Systems Administrator",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Jira",
+          "Confluence",
+          "Salesforce",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "f423c8ec-007e-4a59-9433-c3191bb30a0f"
+        ],
+        "reports_to": "d06908de-4aaf-4a19-8f9a-f37ddcae4300"
+      },
+      "3f950f86-5637-442b-b331-85eb1dded9a1": {
+        "name": "Elena Lopez",
+        "true_name": "Elena López",
+        "role": "Support Specialist",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Oracle",
+          "SharePoint",
+          "Confluence",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265",
+          "296385b6-9c8d-4c10-9de5-13f69de4b830",
+          "2d6d90bc-d45a-44ef-ac2c-691d333bf8b3",
+          "1bb1fa0d-abab-433c-9c48-ebe7a96ccfcc",
+          "cc64e8d4-f631-4f20-9ae5-59e3c004fb37"
+        ],
+        "reports_to": "5daf064a-1ddf-4bc4-bdb9-fa9292498514"
+      },
+      "1ab0c1d5-4c4a-43fa-8a28-83901b3b2d6a": {
+        "name": "Luis Martinez",
+        "true_name": "Luis Martínez",
+        "role": "Network Engineer",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Azure",
+          "EC2",
+          "Lambda",
+          "AWS",
+          "DynamoDB",
+          "Kubernetes",
+          "RDS",
+          "S3"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "91228c66-e869-4c2d-a7c4-b22c5de9140e",
+          "edbbc0a8-7962-4d24-a6de-8349ffedca19"
+        ],
+        "reports_to": "c86a7fa0-346a-4749-aef9-6d3d87835e6c"
+      },
+      "86d6cd8b-33ff-484b-aa42-c1e6b4a6c394": {
+        "name": "Sofia Torres",
+        "true_name": "Sofia Torres",
+        "role": "Data Analyst",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "SharePoint",
+          "Microsoft Office",
+          "Salesforce",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "1b5de982-be97-4b8b-9896-abc85988e8df"
+        ],
+        "reports_to": "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4"
+      },
+      "f058bee3-e0c0-416b-80e2-6a24922d1cf6": {
+        "name": "Wallace Santiago",
+        "true_name": "Wallace Santiago",
+        "role": "UX Designer",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Illustrator",
+          "Adobe Creative Suite",
+          "Photoshop",
+          "InVision"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "5e40d759-fc20-4d22-8a11-292570642038",
+          "4ba1a487-20ee-4ffc-8581-2c60fa7265d0",
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360"
+        ],
+        "reports_to": "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b"
+      },
+      "a67a20fa-2aa6-4f0d-9043-bc636de10a92": {
+        "name": "Tara Worker",
+        "true_name": "Tara Worker",
+        "role": "Data Analyst",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Jira",
+          "SharePoint",
+          "Microsoft Office",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "26744040-6be4-452d-9f2d-9dcb7d9144c7",
+          "eb12b69b-0aec-46e5-af06-4f75313a6206",
+          "ec1b41a3-366b-44a0-bd6f-90250cb5e548"
+        ],
+        "reports_to": "a88888f3-ad17-4585-9017-38009608b42d"
+      },
+      "51fd0116-826c-4846-bac5-b723dea8ad2f": {
+        "name": "Ana Martinez",
+        "true_name": "Ana Martínez",
+        "role": "Data Analyst",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Confluence",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "d65ae68d-60ee-4df9-bb83-7ca8719b4418"
+        ],
+        "reports_to": "80e8b057-7427-4630-a1c4-f2fa67e0d704"
+      },
+      "4efc7614-5ffb-4a8c-9828-a6cc72b8f131": {
+        "name": "Marietta Abbott",
+        "true_name": "Marietta Abbott",
+        "role": "UX Designer",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Illustrator",
+          "Adobe Creative Suite",
+          "Sketch",
+          "Adobe XD"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "015870d5-41d7-448f-8ef4-95e69c12bd79",
+          "687eef34-f8d0-4a27-ab5c-acd94543d06a",
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265"
+        ],
+        "reports_to": "19910435-bf1a-484e-adf8-f0609ca491d1"
+      },
+      "27612503-188a-46a5-85f9-d3e01aa2c0d1": {
+        "name": "Kim Geigel",
+        "true_name": "Kim Geigel",
+        "role": "Data Scientist",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Django",
+          "Go",
+          "Java",
+          "Angular",
+          "Python",
+          "Vue.js",
+          "Flask",
+          "NumPy",
+          "Scikit-learn",
+          "Hadoop",
+          "React",
+          "Pandas",
+          "Kubernetes",
+          "R",
+          "C#",
+          "Node.js",
+          "PyTorch"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [],
+        "reports_to": "10ad79dc-2add-4ab1-84cc-32bd1d8681d3"
+      },
+      "b8f36466-a106-4703-9ac1-43bdec7b9fa4": {
+        "name": "Ana Perez",
+        "true_name": "Ana Pérez",
+        "role": "Junior Developer",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Jira",
+          "Oracle",
+          "SharePoint",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "1bb1fa0d-abab-433c-9c48-ebe7a96ccfcc",
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360"
+        ],
+        "reports_to": "df2325c7-2aae-46a2-8d77-958cdd170ad1"
+      },
+      "19e2f747-b289-4af1-85f5-a2abae73631f": {
+        "name": "Sofia Gonzalez",
+        "true_name": "Sofia González",
+        "role": "Network Engineer",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Azure",
+          "Docker",
+          "RDS",
+          "Kubernetes",
+          "DynamoDB",
+          "EC2",
+          "Terraform",
+          "S3"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "5c615417-9b9e-4168-9c38-99d7ca80c889",
+          "d27d32b3-ec07-4831-a731-169fe13ecaa6"
+        ],
+        "reports_to": "fd654db6-1f40-49f1-84c6-fe3c1055073e"
+      },
+      "89fd422c-6999-45c3-90a0-6f919d71c232": {
+        "name": "Miku Sasaki",
+        "true_name": "小林 明美",
+        "role": "Database Administrator",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "SharePoint",
+          "Microsoft Office",
+          "Confluence",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "cea7d671-389e-42d2-8a1c-2927da9f2c0c",
+          "eb12b69b-0aec-46e5-af06-4f75313a6206"
+        ],
+        "reports_to": "b1e471ff-bde3-409b-aa2a-d5589fb1fb74"
+      },
+      "bd1571ca-62fd-44c8-9f20-31fb4b21d6db": {
+        "name": "Abigail Huntington",
+        "true_name": "Abigail Huntington",
+        "role": "Network Engineer",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Docker",
+          "EC2",
+          "RDS",
+          "CloudFormation",
+          "AWS",
+          "DynamoDB",
+          "Kubernetes",
+          "Terraform"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "7e7b9bdc-99a8-4c46-86ca-d2913179cd81",
+          "e4cf3dcd-1192-47b8-b3e4-2557f59215dd",
+          "d65ae68d-60ee-4df9-bb83-7ca8719b4418",
+          "015870d5-41d7-448f-8ef4-95e69c12bd79",
+          "e7436c7e-56b6-46e0-b7d7-da6f8520b73a"
+        ],
+        "reports_to": "a4f22151-68cf-4276-84e8-e5dd65bb783a"
+      },
+      "5b579c90-c338-47e1-98b5-e85384ff131f": {
+        "name": "Miku Kobayashi",
+        "true_name": "山崎 京助",
+        "role": "Systems Administrator",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Jira",
+          "Salesforce",
+          "Confluence",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [],
+        "reports_to": "73fb6208-48ed-4584-9846-3dd89d417ecd"
+      },
+      "bfd3fcfc-3495-47f8-bbfd-f4795fc641d5": {
+        "name": "Charles Warren",
+        "true_name": "Charles Warren",
+        "role": "Software Engineer",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Angular",
+          "Docker",
+          "Flask",
+          "Git",
+          "Spring Boot",
+          "React",
+          "JavaScript",
+          "Kubernetes",
+          "C#",
+          "Node.js"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "2c68672e-6bc3-4607-8db0-b0c6568e4a06"
+        ],
+        "reports_to": "b68d936e-9ca8-4009-9c3e-a1bc11f0e419"
+      },
+      "40178d38-0ca8-47a5-9945-adb632cbc8a6": {
+        "name": "Brandon Hall",
+        "true_name": "Brandon Hall",
+        "role": "Database Administrator",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Salesforce",
+          "Microsoft Office",
+          "Oracle",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "be170937-bdcd-4e4f-bfbd-7bfb642d95da"
+        ],
+        "reports_to": "d06908de-4aaf-4a19-8f9a-f37ddcae4300"
+      },
+      "ca8ed89e-060c-46ba-89b1-7d9d8ea642eb": {
+        "name": "Hana Sasaki",
+        "true_name": "佐藤 智也",
+        "role": "Support Specialist",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Jira",
+          "SAP",
+          "Confluence",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "7a309fbc-754f-4539-8a6e-345383275cfd"
+        ],
+        "reports_to": "5daf064a-1ddf-4bc4-bdb9-fa9292498514"
+      },
+      "e8e9149e-de5d-4b77-8f61-616d1ad39935": {
+        "name": "Marguerite Graham",
+        "true_name": "Marguerite Graham",
+        "role": "Systems Administrator",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Salesforce",
+          "Microsoft Office",
+          "Confluence",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "a8cd0e69-c233-413e-b14b-dfeb1fb7306d",
+          "91228c66-e869-4c2d-a7c4-b22c5de9140e",
+          "d65ae68d-60ee-4df9-bb83-7ca8719b4418",
+          "f423c8ec-007e-4a59-9433-c3191bb30a0f",
+          "dcbd0ab9-d741-4228-b65e-aa74858e9626",
+          "1d70fc23-6074-46b0-b5ca-900ec0eef70c"
+        ],
+        "reports_to": "c86a7fa0-346a-4749-aef9-6d3d87835e6c"
+      },
+      "85e69924-4f7c-41ef-9389-dc929a484266": {
+        "name": "Elena Ramirez",
+        "true_name": "Elena Ramírez",
+        "role": "UX Designer",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Sketch",
+          "Figma",
+          "Photoshop",
+          "Adobe XD"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "51f75489-5ad5-410f-9d14-3f83b30612a5",
+          "d27d32b3-ec07-4831-a731-169fe13ecaa6",
+          "f423c8ec-007e-4a59-9433-c3191bb30a0f"
+        ],
+        "reports_to": "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4"
+      },
+      "c1102e54-26c4-46e7-8a17-1539f5cc69aa": {
+        "name": "Maria Sanchez",
+        "true_name": "María Sánchez",
+        "role": "Database Administrator",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "SharePoint",
+          "Microsoft Office",
+          "SAP",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "be170937-bdcd-4e4f-bfbd-7bfb642d95da",
+          "ead70991-7ee9-418a-ab19-d31c5848aeaf",
+          "84a7d0e6-94cb-4ce9-be1f-0c7000ee3663"
+        ],
+        "reports_to": "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b"
+      },
+      "0dcca2d2-eb5d-4c0c-ad67-24746928b0fd": {
+        "name": "Amado Armstrong",
+        "true_name": "Amado Armstrong",
+        "role": "Developer",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Confluence",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "7a309fbc-754f-4539-8a6e-345383275cfd",
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265",
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360"
+        ],
+        "reports_to": "a88888f3-ad17-4585-9017-38009608b42d"
+      },
+      "b4b26580-ce74-4297-a339-8889016b5a4f": {
+        "name": "Debra Rodriguez",
+        "true_name": "Debra Rodriguez",
+        "role": "Data Scientist",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Django",
+          "Go",
+          "Java",
+          "SQL",
+          "Pandas",
+          "Angular",
+          "Docker",
+          "Flask",
+          "Git",
+          "NumPy",
+          "JavaScript",
+          "Spark",
+          "Kubernetes",
+          "R",
+          "C#",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "296385b6-9c8d-4c10-9de5-13f69de4b830",
+          "40572786-dde2-4e01-8ab4-5fecea64af7e",
+          "dcbd0ab9-d741-4228-b65e-aa74858e9626"
+        ],
+        "reports_to": "80e8b057-7427-4630-a1c4-f2fa67e0d704"
+      },
+      "420c0b00-5f88-48dc-b4b5-7de8b8964b20": {
+        "name": "Jamie Garner",
+        "true_name": "Jamie Garner",
+        "role": "Data Analyst",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Salesforce",
+          "SharePoint"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "4df2fac4-5e8c-4217-9486-28bac138a82e",
+          "edbbc0a8-7962-4d24-a6de-8349ffedca19"
+        ],
+        "reports_to": "19910435-bf1a-484e-adf8-f0609ca491d1"
+      },
+      "cd6bedc9-0efd-4a47-a19f-8c931d8bc1e1": {
+        "name": "Daryl Hardin",
+        "true_name": "Daryl Hardin",
+        "role": "Software Engineer",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Django",
+          "Go",
+          "Docker",
+          "Python",
+          "Vue.js",
+          "Flask",
+          "React",
+          "JavaScript",
+          "Kubernetes",
+          "C#"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "83b85c70-394f-4514-882a-a4757dd20643",
+          "dcbd0ab9-d741-4228-b65e-aa74858e9626"
+        ],
+        "reports_to": "10ad79dc-2add-4ab1-84cc-32bd1d8681d3"
+      },
+      "6b0f28f3-161f-4e1f-b271-9a1ccd07b092": {
+        "name": "Charles Howe",
+        "true_name": "Charles Howe",
+        "role": "Senior Designer",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "SharePoint",
+          "Microsoft Office",
+          "Confluence",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "84a7d0e6-94cb-4ce9-be1f-0c7000ee3663",
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265",
+          "a8cd0e69-c233-413e-b14b-dfeb1fb7306d"
+        ],
+        "reports_to": "df2325c7-2aae-46a2-8d77-958cdd170ad1"
+      },
+      "8b616599-7dae-43e7-9199-daff822940fe": {
+        "name": "Maria Rodriguez",
+        "true_name": "María Rodríguez",
+        "role": "Junior Developer",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Confluence",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "a8cd0e69-c233-413e-b14b-dfeb1fb7306d",
+          "7d8cfa85-2be7-4d05-a9b8-dfbc8ad5b6af"
+        ],
+        "reports_to": "fd654db6-1f40-49f1-84c6-fe3c1055073e"
+      },
+      "b0de715b-c5e9-4f00-b24d-10c01d3e7fab": {
+        "name": "Raymond Lee",
+        "true_name": "Raymond Lee",
+        "role": "Network Engineer",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "EC2",
+          "Google Cloud",
+          "Lambda",
+          "Terraform",
+          "AWS",
+          "DynamoDB",
+          "Kubernetes",
+          "RDS"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "7d08e847-980f-4213-b61b-aaceab8f62d6"
+        ],
+        "reports_to": "b1e471ff-bde3-409b-aa2a-d5589fb1fb74"
+      },
+      "624f9637-d21c-4a3b-9bfb-7481cc900e97": {
+        "name": "Elena Garcia",
+        "true_name": "Elena García",
+        "role": "Junior Developer",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "SAP",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "91228c66-e869-4c2d-a7c4-b22c5de9140e",
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360"
+        ],
+        "reports_to": "a4f22151-68cf-4276-84e8-e5dd65bb783a"
+      },
+      "6461ce75-f84d-4c35-b36a-470767ec7dea": {
+        "name": "Rosy Keene",
+        "true_name": "Rosy Keene",
+        "role": "Senior Designer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Confluence",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "cea7d671-389e-42d2-8a1c-2927da9f2c0c",
+          "7d08e847-980f-4213-b61b-aaceab8f62d6",
+          "9dac6773-259e-4123-bbcc-388fc66528be"
+        ],
+        "reports_to": "73fb6208-48ed-4584-9846-3dd89d417ecd"
+      },
+      "d735a54f-7ef7-4fd6-85f2-e12183bae83b": {
+        "name": "Paul Mujalli",
+        "true_name": "Paul Mujalli",
+        "role": "Software Engineer",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "Django",
+          "Go",
+          "Java",
+          "Docker",
+          "Python",
+          "Vue.js",
+          "Spring Boot",
+          "JavaScript",
+          "Kubernetes",
+          "Node.js"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "62ce63c3-0a1b-4d7d-8a12-1d279bc7e821",
+          "4ba1a487-20ee-4ffc-8581-2c60fa7265d0"
+        ],
+        "reports_to": "b68d936e-9ca8-4009-9c3e-a1bc11f0e419"
+      },
+      "05a090c5-acc8-4e48-bbd9-59e881e1502b": {
+        "name": "Kyle Duchene",
+        "true_name": "Kyle Duchene",
+        "role": "Support Specialist",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Confluence",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "1b5de982-be97-4b8b-9896-abc85988e8df"
+        ],
+        "reports_to": "d06908de-4aaf-4a19-8f9a-f37ddcae4300"
+      },
+      "6bcb6d51-a9ab-4c24-9f0f-a6cff1fa5275": {
+        "name": "Isabella Ramirez",
+        "true_name": "Isabella Ramírez",
+        "role": "Systems Administrator",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "SharePoint",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "77d77f5e-48ec-4d3e-944f-2452c63e88d9",
+          "c4f272b6-18b8-44b0-9e7f-9d465859c510",
+          "9dac6773-259e-4123-bbcc-388fc66528be"
+        ],
+        "reports_to": "5daf064a-1ddf-4bc4-bdb9-fa9292498514"
+      },
+      "b5fd5aa7-93be-4ef8-8eff-8ebf1e5ce22a": {
+        "name": "Taro Sato",
+        "true_name": "岡本 翔太",
+        "role": "Developer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Jira",
+          "Salesforce",
+          "Microsoft Office",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "02e12cf9-2983-4ce1-85e0-f3dd6219e9af",
+          "dcbd0ab9-d741-4228-b65e-aa74858e9626",
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265"
+        ],
+        "reports_to": "c86a7fa0-346a-4749-aef9-6d3d87835e6c"
+      },
+      "fd538f0e-f4ae-4743-8a8a-748725edabe3": {
+        "name": "Laurette Falcon",
+        "true_name": "Laurette Falcon",
+        "role": "Support Specialist",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Jira",
+          "Salesforce",
+          "Confluence",
+          "SharePoint"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "9dac6773-259e-4123-bbcc-388fc66528be"
+        ],
+        "reports_to": "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4"
+      },
+      "86c83f74-4e8d-4b46-9649-3730475ff65c": {
+        "name": "Yuta Sasaki",
+        "true_name": "中島 拓真",
+        "role": "Senior Developer",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Jira",
+          "SharePoint",
+          "Microsoft Office",
+          "Salesforce"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "cc64e8d4-f631-4f20-9ae5-59e3c004fb37",
+          "ead70991-7ee9-418a-ab19-d31c5848aeaf",
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360",
+          "a8cd0e69-c233-413e-b14b-dfeb1fb7306d"
+        ],
+        "reports_to": "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b"
+      },
+      "0f34af12-76c8-44ef-bf8f-fab10a249e35": {
+        "name": "Lisa Jones",
+        "true_name": "Lisa Jones",
+        "role": "Software Engineer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Django",
+          "Go",
+          "Java",
+          "Angular",
+          "Python",
+          "Vue.js",
+          "Flask",
+          "Spring Boot",
+          "React",
+          "Node.js"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [],
+        "reports_to": "a88888f3-ad17-4585-9017-38009608b42d"
+      },
+      "4e4aee5b-ebae-4b32-ba1c-3633ecea4db6": {
+        "name": "Mary Miller",
+        "true_name": "Mary Miller",
+        "role": "Junior Developer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Salesforce",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "992f5c70-f468-49f5-bf70-538cf031f43f",
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265"
+        ],
+        "reports_to": "80e8b057-7427-4630-a1c4-f2fa67e0d704"
+      },
+      "ea5564f9-d377-4908-a6e0-2063e604aca9": {
+        "name": "Miguel Torres",
+        "true_name": "Miguel Torres",
+        "role": "Software Engineer",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Django",
+          "Go",
+          "Java",
+          "Angular",
+          "Vue.js",
+          "Flask",
+          "Spring Boot",
+          "React",
+          "Kubernetes",
+          "C#"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "93ea6809-0e36-4186-92ed-a9071ff92489",
+          "df5d2e26-4e89-45cf-9038-aa67a2c09a30"
+        ],
+        "reports_to": "19910435-bf1a-484e-adf8-f0609ca491d1"
+      },
+      "21ec201d-30db-4c38-aba2-5ee40fc41f1d": {
+        "name": "Aki Yoshida",
+        "true_name": "岡本 結衣",
+        "role": "Support Specialist",
+        "level": "Individual",
+        "department": "Engineering",
+        "current_technologies": [
+          "SharePoint",
+          "Microsoft Office",
+          "Salesforce",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "40572786-dde2-4e01-8ab4-5fecea64af7e"
+        ],
+        "reports_to": "10ad79dc-2add-4ab1-84cc-32bd1d8681d3"
+      },
+      "f8a225ef-4b2a-41d6-8cbe-be8d338b2cd3": {
+        "name": "Ryu Saito",
+        "true_name": "伊藤 明美",
+        "role": "Data Scientist",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Django",
+          "Jupyter",
+          "SQL",
+          "Angular",
+          "Python",
+          "Vue.js",
+          "Flask",
+          "NumPy",
+          "Spring Boot",
+          "Hadoop",
+          "React",
+          "JavaScript",
+          "Pandas",
+          "Kubernetes",
+          "R",
+          "C#",
+          "Node.js"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "7d08e847-980f-4213-b61b-aaceab8f62d6"
+        ],
+        "reports_to": "df2325c7-2aae-46a2-8d77-958cdd170ad1"
+      },
+      "f54987cd-f408-4843-8164-973d412428f2": {
+        "name": "Wayne Mccarville",
+        "true_name": "Wayne Mccarville",
+        "role": "UI Designer",
+        "level": "Individual",
+        "department": "Operations",
+        "current_technologies": [
+          "Illustrator",
+          "Figma",
+          "Photoshop",
+          "Adobe XD"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "2d6d90bc-d45a-44ef-ac2c-691d333bf8b3",
+          "a8cd0e69-c233-413e-b14b-dfeb1fb7306d",
+          "62ce63c3-0a1b-4d7d-8a12-1d279bc7e821"
+        ],
+        "reports_to": "fd654db6-1f40-49f1-84c6-fe3c1055073e"
+      },
+      "52bbc08f-8a44-4f95-84b5-2951900cd217": {
+        "name": "Saki Yamamoto",
+        "true_name": "渡辺 健一",
+        "role": "Data Analyst",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "SharePoint",
+          "Microsoft Office",
+          "Salesforce",
+          "SAP"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [],
+        "reports_to": "b1e471ff-bde3-409b-aa2a-d5589fb1fb74"
+      },
+      "d0a213ed-5e4d-40e8-b0d0-5a662623d505": {
+        "name": "Shaun Murray",
+        "true_name": "Shaun Murray",
+        "role": "Network Engineer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Google Cloud",
+          "EC2",
+          "Terraform",
+          "CloudFormation",
+          "AWS",
+          "DynamoDB",
+          "Kubernetes",
+          "RDS"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "554934b4-31c9-4bb5-ad08-c403836d9848"
+        ],
+        "reports_to": "a4f22151-68cf-4276-84e8-e5dd65bb783a"
+      },
+      "878b52cc-721d-435d-9dbd-0f680d25b2c2": {
+        "name": "Hiro Kato",
+        "true_name": "村上 浩",
+        "role": "UI Designer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Adobe Creative Suite",
+          "Photoshop",
+          "InVision",
+          "Adobe XD"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "e7436c7e-56b6-46e0-b7d7-da6f8520b73a",
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360",
+          "62ce63c3-0a1b-4d7d-8a12-1d279bc7e821"
+        ],
+        "reports_to": "73fb6208-48ed-4584-9846-3dd89d417ecd"
+      },
+      "95266fec-fcfc-490f-8763-143787e4b300": {
+        "name": "Taro Saito",
+        "true_name": "高橋 篤司",
+        "role": "Developer",
+        "level": "Individual",
+        "department": "IT",
+        "current_technologies": [
+          "Microsoft Office",
+          "SAP",
+          "Salesforce",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "e4cf3dcd-1192-47b8-b3e4-2557f59215dd",
+          "a5d6d76b-7f1e-440d-8ccc-081caad53679",
+          "8525f5e1-b5bf-4af6-9b6f-7326135af265"
+        ],
+        "reports_to": "b68d936e-9ca8-4009-9c3e-a1bc11f0e419"
+      },
+      "cdd628d2-d767-4098-9304-c08c15ae808f": {
+        "name": "Sidney Scharfenberg",
+        "true_name": "Sidney Scharfenberg",
+        "role": "Data Analyst",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Jira",
+          "Salesforce",
+          "Microsoft Office",
+          "Confluence"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [
+          "6ee636af-4c0c-4ebc-8267-29cfbb60b360",
+          "0efc82ff-3fd4-411c-ab27-019bc03ebc1f"
+        ],
+        "reports_to": "d06908de-4aaf-4a19-8f9a-f37ddcae4300"
+      },
+      "0f7e0dff-799b-4ffa-9680-0857be2ee220": {
+        "name": "Antonio Young",
+        "true_name": "Antonio Young",
+        "role": "Senior Engineer",
+        "level": "Individual",
+        "department": "Business",
+        "current_technologies": [
+          "Jira",
+          "Microsoft Office",
+          "Salesforce",
+          "Oracle"
+        ],
+        "likely_additional_technologies": [],
+        "assigned_projects": [],
+        "reports_to": "5daf064a-1ddf-4bc4-bdb9-fa9292498514"
+      }
+    },
+    "org_structure": {
+      "executives": [
+        "3a0ebabd-ac9a-4944-a99f-4ca4ea8015bb",
+        "b39ae54c-4903-47e4-85e8-3de13ed6c77f",
+        "beecbd81-5e44-40aa-b6d6-0895cf82abf6",
+        "a0d2fab6-5827-4435-b484-66f89e60cc8a",
+        "eeaab170-7db5-422a-9dc5-43c7f0f487b4"
+      ],
+      "reporting_structure": {
+        "2969b476-aa90-48a4-83b2-80afa472b534": "eeaab170-7db5-422a-9dc5-43c7f0f487b4",
+        "638d5930-6dac-4ce7-b702-4a99656d3759": "b39ae54c-4903-47e4-85e8-3de13ed6c77f",
+        "bf1f9e14-5cb8-4339-b54d-b9f79fd17115": "eeaab170-7db5-422a-9dc5-43c7f0f487b4",
+        "5e51b605-5e1b-43ab-90e7-726ad4079b71": "b39ae54c-4903-47e4-85e8-3de13ed6c77f",
+        "9a38bb27-626c-4083-bb94-d74639a636b6": "3a0ebabd-ac9a-4944-a99f-4ca4ea8015bb",
+        "31a54dd2-09e2-451a-b709-032f7637e029": "b39ae54c-4903-47e4-85e8-3de13ed6c77f",
+        "1ecd65e7-5ce4-41c3-92e8-409fab28cb29": "a0d2fab6-5827-4435-b484-66f89e60cc8a",
+        "af0bbce3-4ddb-4bc2-baf3-8bc7000c932f": "eeaab170-7db5-422a-9dc5-43c7f0f487b4",
+        "96fa345f-d4c9-4410-b00e-eaa293fcaeb2": "b39ae54c-4903-47e4-85e8-3de13ed6c77f",
+        "ace31a6d-dc56-46b3-8ad8-914bb53f78b8": "a0d2fab6-5827-4435-b484-66f89e60cc8a",
+        "19910435-bf1a-484e-adf8-f0609ca491d1": "ace31a6d-dc56-46b3-8ad8-914bb53f78b8",
+        "10ad79dc-2add-4ab1-84cc-32bd1d8681d3": "31a54dd2-09e2-451a-b709-032f7637e029",
+        "df2325c7-2aae-46a2-8d77-958cdd170ad1": "2969b476-aa90-48a4-83b2-80afa472b534",
+        "fd654db6-1f40-49f1-84c6-fe3c1055073e": "638d5930-6dac-4ce7-b702-4a99656d3759",
+        "b1e471ff-bde3-409b-aa2a-d5589fb1fb74": "af0bbce3-4ddb-4bc2-baf3-8bc7000c932f",
+        "a4f22151-68cf-4276-84e8-e5dd65bb783a": "bf1f9e14-5cb8-4339-b54d-b9f79fd17115",
+        "73fb6208-48ed-4584-9846-3dd89d417ecd": "bf1f9e14-5cb8-4339-b54d-b9f79fd17115",
+        "b68d936e-9ca8-4009-9c3e-a1bc11f0e419": "96fa345f-d4c9-4410-b00e-eaa293fcaeb2",
+        "d06908de-4aaf-4a19-8f9a-f37ddcae4300": "bf1f9e14-5cb8-4339-b54d-b9f79fd17115",
+        "5daf064a-1ddf-4bc4-bdb9-fa9292498514": "2969b476-aa90-48a4-83b2-80afa472b534",
+        "c86a7fa0-346a-4749-aef9-6d3d87835e6c": "31a54dd2-09e2-451a-b709-032f7637e029",
+        "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4": "9a38bb27-626c-4083-bb94-d74639a636b6",
+        "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b": "ace31a6d-dc56-46b3-8ad8-914bb53f78b8",
+        "a88888f3-ad17-4585-9017-38009608b42d": "1ecd65e7-5ce4-41c3-92e8-409fab28cb29",
+        "80e8b057-7427-4630-a1c4-f2fa67e0d704": "9a38bb27-626c-4083-bb94-d74639a636b6",
+        "d41803f2-a247-4528-a7b8-5730ba65c72c": "19910435-bf1a-484e-adf8-f0609ca491d1",
+        "7aba27fe-f18a-46e5-a972-93dc3091eb02": "10ad79dc-2add-4ab1-84cc-32bd1d8681d3",
+        "3b4b5f39-da89-4915-a215-abdee7f9d039": "df2325c7-2aae-46a2-8d77-958cdd170ad1",
+        "ef84d662-3206-4e8f-beb0-b0f8d253fa26": "fd654db6-1f40-49f1-84c6-fe3c1055073e",
+        "8a36e52e-d888-463c-a292-a97c81a716c6": "b1e471ff-bde3-409b-aa2a-d5589fb1fb74",
+        "0fbbdb20-336f-4e37-a9b1-a5e15e398480": "a4f22151-68cf-4276-84e8-e5dd65bb783a",
+        "3ec76a2c-436e-4cda-8414-929a053f1429": "73fb6208-48ed-4584-9846-3dd89d417ecd",
+        "6bec9f5b-c92c-4a95-ba94-bb1e7c187c3d": "b68d936e-9ca8-4009-9c3e-a1bc11f0e419",
+        "a2f62f38-2ca9-44c7-b76b-4d2fc58f05f9": "d06908de-4aaf-4a19-8f9a-f37ddcae4300",
+        "8591bd98-4d53-40f5-b308-0a50c4944b6e": "5daf064a-1ddf-4bc4-bdb9-fa9292498514",
+        "cb566e10-59a3-472d-adc3-45bcba23f2ea": "c86a7fa0-346a-4749-aef9-6d3d87835e6c",
+        "ccaf67f4-3057-4c5a-b12c-a06e378a0234": "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4",
+        "d21b046f-d038-4c62-89f9-78e6c28d59a4": "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b",
+        "fdf5b531-75cc-4156-8c13-b75de78cd195": "a88888f3-ad17-4585-9017-38009608b42d",
+        "06d1efbd-3478-4389-933e-733d71e2f161": "80e8b057-7427-4630-a1c4-f2fa67e0d704",
+        "51de9ba3-281a-4df8-8fd3-29a4c17c490a": "19910435-bf1a-484e-adf8-f0609ca491d1",
+        "91c45ce1-de7e-495c-a1fc-a64ad9374ef9": "10ad79dc-2add-4ab1-84cc-32bd1d8681d3",
+        "254584fd-9002-4111-8630-7179bff2b81a": "df2325c7-2aae-46a2-8d77-958cdd170ad1",
+        "4fee7ff2-df44-476b-ba77-db52433549b9": "fd654db6-1f40-49f1-84c6-fe3c1055073e",
+        "59596566-e304-437f-a17a-9963b1613787": "b1e471ff-bde3-409b-aa2a-d5589fb1fb74",
+        "5ed100d4-72a5-4b17-800a-7e1f3c4b76ca": "a4f22151-68cf-4276-84e8-e5dd65bb783a",
+        "e96d91e6-f14e-4f51-bdad-f20712dd7804": "73fb6208-48ed-4584-9846-3dd89d417ecd",
+        "15f776e1-f761-4d0e-ac16-14a6b42f3cda": "b68d936e-9ca8-4009-9c3e-a1bc11f0e419",
+        "ffccae75-b11d-4c61-9ecb-e74b09214568": "d06908de-4aaf-4a19-8f9a-f37ddcae4300",
+        "3f950f86-5637-442b-b331-85eb1dded9a1": "5daf064a-1ddf-4bc4-bdb9-fa9292498514",
+        "1ab0c1d5-4c4a-43fa-8a28-83901b3b2d6a": "c86a7fa0-346a-4749-aef9-6d3d87835e6c",
+        "86d6cd8b-33ff-484b-aa42-c1e6b4a6c394": "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4",
+        "f058bee3-e0c0-416b-80e2-6a24922d1cf6": "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b",
+        "a67a20fa-2aa6-4f0d-9043-bc636de10a92": "a88888f3-ad17-4585-9017-38009608b42d",
+        "51fd0116-826c-4846-bac5-b723dea8ad2f": "80e8b057-7427-4630-a1c4-f2fa67e0d704",
+        "4efc7614-5ffb-4a8c-9828-a6cc72b8f131": "19910435-bf1a-484e-adf8-f0609ca491d1",
+        "27612503-188a-46a5-85f9-d3e01aa2c0d1": "10ad79dc-2add-4ab1-84cc-32bd1d8681d3",
+        "b8f36466-a106-4703-9ac1-43bdec7b9fa4": "df2325c7-2aae-46a2-8d77-958cdd170ad1",
+        "19e2f747-b289-4af1-85f5-a2abae73631f": "fd654db6-1f40-49f1-84c6-fe3c1055073e",
+        "89fd422c-6999-45c3-90a0-6f919d71c232": "b1e471ff-bde3-409b-aa2a-d5589fb1fb74",
+        "bd1571ca-62fd-44c8-9f20-31fb4b21d6db": "a4f22151-68cf-4276-84e8-e5dd65bb783a",
+        "5b579c90-c338-47e1-98b5-e85384ff131f": "73fb6208-48ed-4584-9846-3dd89d417ecd",
+        "bfd3fcfc-3495-47f8-bbfd-f4795fc641d5": "b68d936e-9ca8-4009-9c3e-a1bc11f0e419",
+        "40178d38-0ca8-47a5-9945-adb632cbc8a6": "d06908de-4aaf-4a19-8f9a-f37ddcae4300",
+        "ca8ed89e-060c-46ba-89b1-7d9d8ea642eb": "5daf064a-1ddf-4bc4-bdb9-fa9292498514",
+        "e8e9149e-de5d-4b77-8f61-616d1ad39935": "c86a7fa0-346a-4749-aef9-6d3d87835e6c",
+        "85e69924-4f7c-41ef-9389-dc929a484266": "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4",
+        "c1102e54-26c4-46e7-8a17-1539f5cc69aa": "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b",
+        "0dcca2d2-eb5d-4c0c-ad67-24746928b0fd": "a88888f3-ad17-4585-9017-38009608b42d",
+        "b4b26580-ce74-4297-a339-8889016b5a4f": "80e8b057-7427-4630-a1c4-f2fa67e0d704",
+        "420c0b00-5f88-48dc-b4b5-7de8b8964b20": "19910435-bf1a-484e-adf8-f0609ca491d1",
+        "cd6bedc9-0efd-4a47-a19f-8c931d8bc1e1": "10ad79dc-2add-4ab1-84cc-32bd1d8681d3",
+        "6b0f28f3-161f-4e1f-b271-9a1ccd07b092": "df2325c7-2aae-46a2-8d77-958cdd170ad1",
+        "8b616599-7dae-43e7-9199-daff822940fe": "fd654db6-1f40-49f1-84c6-fe3c1055073e",
+        "b0de715b-c5e9-4f00-b24d-10c01d3e7fab": "b1e471ff-bde3-409b-aa2a-d5589fb1fb74",
+        "624f9637-d21c-4a3b-9bfb-7481cc900e97": "a4f22151-68cf-4276-84e8-e5dd65bb783a",
+        "6461ce75-f84d-4c35-b36a-470767ec7dea": "73fb6208-48ed-4584-9846-3dd89d417ecd",
+        "d735a54f-7ef7-4fd6-85f2-e12183bae83b": "b68d936e-9ca8-4009-9c3e-a1bc11f0e419",
+        "05a090c5-acc8-4e48-bbd9-59e881e1502b": "d06908de-4aaf-4a19-8f9a-f37ddcae4300",
+        "6bcb6d51-a9ab-4c24-9f0f-a6cff1fa5275": "5daf064a-1ddf-4bc4-bdb9-fa9292498514",
+        "b5fd5aa7-93be-4ef8-8eff-8ebf1e5ce22a": "c86a7fa0-346a-4749-aef9-6d3d87835e6c",
+        "fd538f0e-f4ae-4743-8a8a-748725edabe3": "ca005388-9ad9-4eb6-96a5-30d3a31b8dc4",
+        "86c83f74-4e8d-4b46-9649-3730475ff65c": "8ecc61ce-5f33-4b90-b985-1cba5bf5e34b",
+        "0f34af12-76c8-44ef-bf8f-fab10a249e35": "a88888f3-ad17-4585-9017-38009608b42d",
+        "4e4aee5b-ebae-4b32-ba1c-3633ecea4db6": "80e8b057-7427-4630-a1c4-f2fa67e0d704",
+        "ea5564f9-d377-4908-a6e0-2063e604aca9": "19910435-bf1a-484e-adf8-f0609ca491d1",
+        "21ec201d-30db-4c38-aba2-5ee40fc41f1d": "10ad79dc-2add-4ab1-84cc-32bd1d8681d3",
+        "f8a225ef-4b2a-41d6-8cbe-be8d338b2cd3": "df2325c7-2aae-46a2-8d77-958cdd170ad1",
+        "f54987cd-f408-4843-8164-973d412428f2": "fd654db6-1f40-49f1-84c6-fe3c1055073e",
+        "52bbc08f-8a44-4f95-84b5-2951900cd217": "b1e471ff-bde3-409b-aa2a-d5589fb1fb74",
+        "d0a213ed-5e4d-40e8-b0d0-5a662623d505": "a4f22151-68cf-4276-84e8-e5dd65bb783a",
+        "878b52cc-721d-435d-9dbd-0f680d25b2c2": "73fb6208-48ed-4584-9846-3dd89d417ecd",
+        "95266fec-fcfc-490f-8763-143787e4b300": "b68d936e-9ca8-4009-9c3e-a1bc11f0e419",
+        "cdd628d2-d767-4098-9304-c08c15ae808f": "d06908de-4aaf-4a19-8f9a-f37ddcae4300",
+        "0f7e0dff-799b-4ffa-9680-0857be2ee220": "5daf064a-1ddf-4bc4-bdb9-fa9292498514"
+      }
+    }
+  }
