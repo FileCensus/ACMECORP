@@ -1,3 +1,29 @@
+"""
+Active Directory Setup Script
+
+This script automates the creation of Active Directory users and groups based on a JSON configuration file.
+It handles the creation of department-based groups, project groups, and user accounts with appropriate
+group memberships and permissions.
+
+Usage:
+    python AD_setup.py [options]
+
+Options:
+    --dry-run           Show what would be done without making actual changes
+    --data-file FILE    Path to company data JSON file (default: company_data.json)
+    --verbose, -v       Enable detailed output during execution
+    --skip-groups       Skip the creation of AD groups
+    --skip-users        Skip the creation of AD users
+
+The input JSON file should contain:
+- users: Dictionary of user information including name, role, department, and project assignments
+- projects: Dictionary of project information including number, name, department, and assigned users
+
+Example:
+    python AD_setup.py --dry-run --verbose
+    python AD_setup.py --data-file custom_data.json
+"""
+
 import json
 from pathlib import Path
 import win32security
@@ -7,6 +33,7 @@ import win32api
 import win32con
 from typing import Dict, Optional, Set
 import subprocess
+import argparse
 
 # Global variables
 all_users = {}
@@ -18,7 +45,7 @@ def load_company_data(file_path: str) -> Dict:
     with open(file_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def create_ad_group(group_name: str) -> bool:
+def create_ad_group(group_name: str, dry_run: bool = False) -> bool:
     """Create an Active Directory local group if it doesn't exist"""
     global all_users, all_projects
     try:
@@ -76,6 +103,11 @@ def create_ad_group(group_name: str) -> bool:
             'comment': comment,
         }
         
+        if dry_run:
+            print(f"[DRY RUN] Would create/update group: {group_name}")
+            print(f"[DRY RUN] Comment: {comment}")
+            return True
+            
         try:
             # Try to create the group
             win32net.NetLocalGroupAdd(None, 1, group_info)
@@ -261,9 +293,8 @@ def get_required_groups(company_data: Dict) -> Set[str]:
     
     return all_groups
 
-def create_ad_user(user_data: Dict, domain: Optional[str] = None) -> bool:
+def create_ad_user(user_data: Dict, dry_run: bool = False, domain: Optional[str] = None) -> bool:
     """Create an Active Directory user with the specified attributes"""
-    # Generate username from full name first, so it's available for error messages
     name_parts = user_data['name'].lower().split()
     username = f"{name_parts[0]}_{name_parts[-1]}"
     
@@ -282,6 +313,13 @@ def create_ad_user(user_data: Dict, domain: Optional[str] = None) -> bool:
                      win32netcon.UF_PASSWD_CANT_CHANGE),  # User can't change password
             'script_path': ''
         }
+
+        if dry_run:
+            print(f"[DRY RUN] Would create user: {username}")
+            print(f"[DRY RUN] Full name: {user_data['true_name']}")
+            print(f"[DRY RUN] Home directory: U:\\Users\\{username}")
+            print(f"[DRY RUN] Comment: {user_data['role']} - {user_data['department']}")
+            return True
 
         # Create the user account
         win32net.NetUserAdd(None, 1, user_info)
@@ -349,9 +387,17 @@ def create_ad_user(user_data: Dict, domain: Optional[str] = None) -> bool:
         return False
 
 def main():
+    parser = argparse.ArgumentParser(description='Setup Active Directory users and groups')
+    parser.add_argument('--dry-run', action='store_true', help='Show what would be done without making changes')
+    parser.add_argument('--data-file', default='company_data.json', help='Path to company data JSON file')
+    parser.add_argument('--verbose', '-v', action='store_true', help='Enable verbose output')
+    parser.add_argument('--skip-groups', action='store_true', help='Skip group creation')
+    parser.add_argument('--skip-users', action='store_true', help='Skip user creation')
+    args = parser.parse_args()
+
     try:
         # Load company data
-        company_data = load_company_data('company_data.json')
+        company_data = load_company_data(args.data_file)
         
         # Store all users for manager lookup
         global all_users
@@ -361,10 +407,11 @@ def main():
         global all_projects
         all_projects = company_data.get('projects', {})
         
-        if not all_projects:
-            print("\nWarning: No projects found in company_data.json")
-        else:
-            print(f"\nLoaded {len(all_projects)} projects")
+        if args.verbose:
+            if not all_projects:
+                print("\nWarning: No projects found in company_data.json")
+            else:
+                print(f"\nLoaded {len(all_projects)} projects")
         
         # Store all groups that will be created
         global all_possible_groups
@@ -372,58 +419,47 @@ def main():
         # Get list of users we'll create
         all_users_list = list(company_data['users'].items())
         
-        print(f"\nWill create {len(all_users_list)} users and their associated groups...")
+        if args.verbose:
+            print(f"\nWill {'simulate' if args.dry_run else 'create'} {len(all_users_list)} users and their associated groups...")
         
-        # Create required groups first
-        print("\nCreating required groups...")
-        required_groups = get_required_groups(company_data)
-        all_possible_groups = required_groups.copy()
+        if not args.skip_groups:
+            # Create required groups first
+            if args.verbose:
+                print("\nCreating required groups...")
+            required_groups = get_required_groups(company_data)
+            all_possible_groups = required_groups.copy()
+            
+            # Add project groups
+            if args.verbose:
+                print("\nCollecting project groups...")
+            for project_id, project in all_projects.items():
+                project_number = project.get('number', 'unknown')
+                project_group = f"Group Project {project_number}"
+                all_possible_groups.add(project_group)
+                if args.verbose:
+                    print(f"  Added {project_group}")
+            
+            if args.verbose:
+                print(f"\nTotal groups to {'simulate' if args.dry_run else 'create'}: {len(all_possible_groups)}")
+            
+            for group in all_possible_groups:
+                if create_ad_group(group, dry_run=args.dry_run):
+                    if args.verbose:
+                        print(f"Successfully {'simulated' if args.dry_run else 'created'} group: {group}")
+                else:
+                    print(f"Failed to {'simulate' if args.dry_run else 'create'} group: {group}")
         
-        # Add project groups FIRST
-        print("\nCollecting project groups...")
-        for project_id, project in all_projects.items():
-            project_number = project.get('number', 'unknown')
-            project_group = f"Group Project {project_number}"
-            all_possible_groups.add(project_group)
-            print(f"  Added {project_group}")
-        
-        print("\nProject-related groups:")
-        project_groups = [g for g in all_possible_groups if g.startswith('Group Project')]
-        for group in project_groups:
-            print(f"  {group}")
-        
-        print("\nOther groups:")
-        other_groups = [g for g in all_possible_groups if not g.startswith('Group Project')]
-        for group in other_groups:
-            print(f"  {group}")
-        
-        print("\nCreating groups...")
-        print(f"\nTotal groups to create: {len(all_possible_groups)}")
-        print("Groups to be created:", sorted(all_possible_groups))
-        
-        for group in all_possible_groups:
-            if create_ad_group(group):
-                print(f"Successfully created group: {group}")
-            else:
-                print(f"Failed to create group: {group}")
-        
-        print("\nVerifying groups exist...")
-        for group in all_possible_groups:
-            try:
-                win32net.NetLocalGroupGetInfo(None, group, 0)
-                print(f"Verified group exists: {group}")
-            except win32net.error as e:
-                print(f"WARNING: Group does not exist: {group}")
-        
-        # Create users
-        print("\nCreating users...")
-        success_count = 0
-        for user_id, user_data in all_users_list:
-            if create_ad_user(user_data):
-                success_count += 1
-        
-        print(f"\nCreated {success_count} of {len(all_users_list)} users successfully")
-        print("Created groups:", ', '.join(all_possible_groups))
+        if not args.skip_users:
+            # Create users
+            if args.verbose:
+                print("\nCreating users...")
+            success_count = 0
+            for user_id, user_data in all_users_list:
+                if create_ad_user(user_data, dry_run=args.dry_run):
+                    success_count += 1
+            
+            if args.verbose:
+                print(f"\n{'Simulated' if args.dry_run else 'Created'} {success_count} of {len(all_users_list)} users successfully")
         
     except Exception as e:
         print(f"Error: {str(e)}")
